@@ -1,0 +1,133 @@
+{
+  "version": "2.0.0",
+  "project": {
+    "name": "leeway-skills-enterprise",
+    "description": "Enterprise AI Agent and Full-Stack Development Skills Library with Leeway Standards Governance",
+    "author": "Leeway Industries (By Leonard Jerome Lee)",
+    "license": "MIT",
+    "repository": "local",
+    "leewayVersion": "1.0.0"
+  },
+  "rootDir": "skills",
+  "agents": {
+    "compliance-monitor": {
+      "enabled": true,
+      "interval": 3600000,
+      "reportDir": ".leeway/reports"
+    },
+    "skill-validator": {
+      "enabled": true,
+      "checkHeaders": true,
+      "checkTags": true,
+      "checkMetadata": true
+    },
+    "autonomy-auditor": {
+      "enabled": true,
+      "validateAgentPatterns": true,
+      "checkMemoryIntegration": true
+    }
+  },
+  "compliance": {
+    "minimumScore": 85,
+    "blockOnFail": false,
+    "enforcedPolicies": [
+      "NO_SECRETS_IN_CODE",
+      "HEADERS_REQUIRED",
+      "TAGS_REQUIRED",
+      "NO_CIRCULAR_DEPS"
+    ],
+    "warningPolicies": ["NAMING_CONVENTIONS", "DOCUMENTATION_COVERAGE"]
+  },
+  "policies": {
+    "NO_SECRETS_IN_CODE": {
+      "enforced": true,
+      "patterns": [
+        "(password|secret|apikey|api_key|private_key|token)\\s*[=:]",
+        "-----BEGIN",
+        "-----END"
+      ]
+    },
+    "HEADERS_REQUIRED": {
+      "enforced": true,
+      "fileTypes": ["SKILL.md", "*.js", "*.ts", "*.py"],
+      "headerFormat": "leeway"
+    },
+    "TAGS_REQUIRED": {
+      "enforced": true,
+      "minTags": 3,
+      "format": "REGION/TAG"
+    },
+    "NO_CIRCULAR_DEPS": {
+      "enforced": true
+    },
+    "NAMING_CONVENTIONS": {
+      "enforced": false,
+      "skillFormat": "kebab-case",
+      "categoryFormat": "kebab-case"
+    },
+    "DOCUMENTATION_COVERAGE": {
+      "enforced": false,
+      "minCoverage": 80
+    }
+  },
+  "skillMetadata": {
+    "requiredFields": [
+      "name",
+      "category",
+      "version",
+      "tags",
+      "description",
+      "capabilities"
+    ],
+    "categories": [
+      "agent-autonomy",
+      "self-optimization",
+      "quality-assurance",
+      "code-generation",
+      "code-analysis",
+      "data-analysis",
+      "devops",
+      "infrastructure",
+      "debugging",
+      "testing",
+      "web-development",
+      "ai-ml",
+      "security",
+      "documentation",
+      "architecture",
+      "database-design",
+      "git-workflow",
+      "error-handling",
+      "performance-optimization",
+      "observability",
+      "agent-orchestration",
+      "agent-patterns",
+      "workflow-composition",
+      "tool-integration",
+      "rag-knowledge",
+      "prompt-optimization",
+      "research"
+    ]
+  },
+  "monitoring": {
+    "enabled": true,
+    "metricsDir": ".leeway/metrics",
+    "tracking": {
+      "skillUpdates": true,
+      "complianceScore": true,
+      "agentExecution": true,
+      "performanceMetrics": true
+    }
+  },
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".next/**",
+    "coverage/**",
+    "*.min.js",
+    ".git/**",
+    ".leeway/reports/**",
+    ".leeway/metrics/**"
+  ]
+}

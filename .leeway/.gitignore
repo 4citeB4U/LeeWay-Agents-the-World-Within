@@ -1,0 +1,13 @@
+# Leeway Runtime Artifacts (DO NOT TRACK)
+# Keep config.json, but ignore runtime outputs
+
+reports/
+metrics/
+memory.json
+processes.json
+registry.json
+ports.json
+intents.json
+*.log
+audit-*.json
+compliance-*.json
