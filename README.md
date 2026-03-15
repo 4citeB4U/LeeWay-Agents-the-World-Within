@@ -1,217 +1,521 @@
-# LeeWay Agent Skills
+# 🧠 Leeway Agent Skills - LLM Lifelong Learning System
 
-[![GitHub](https://img.shields.io/badge/GitHub-LeeWay--Agent--Skills-181717?logo=github)](https://github.com/4citeB4U/LeeWay-Agent-Skills)
-[![npm](https://img.shields.io/badge/npm-@leeway%2Fagent--skills-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/@leeway/agent-skills)
-[![Node](https://img.shields.io/badge/Node-18%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![MCP](https://img.shields.io/badge/MCP-ready-0A7EA4)](mcp-server/README.md)
+**Machine-Readable Learning Framework for AI Agents**  
+_Leeway Industries | Leonard Jerome Lee_
 
-> The developer-facing skill system for agentic engineering.
->
-> LeeWay Agent Skills gives developers, AI engineers, platform teams, and product builders a practical way to turn LLM capability into an operating layer: reusable skill modules, callable MCP tools, workflow orchestration, governance automation, and proof-backed integration assets.
+---
 
-## Why This Project Exists
+## 🎯 What This System Is
 
-Most AI tooling stops at prompting. LeeWay Agent Skills is built for teams that need more than a clever demo. It packages structured execution knowledge, workflow composition, MCP delivery, and compliance controls into one repository so agentic systems can be deployed with more consistency, more speed, and less operational guesswork.
+### Leeway Agent Skills + Workflows + Lifelong Learning = LLM School
 
-If you are building internal copilots, engineering assistants, AI-enabled products, platform tooling, or multi-agent systems, this project is designed to help you move from experimentation to repeatable delivery.
+This is an exclusive architecture for LLM agents to:
 
-## What You Get
+- Load skill atoms and execution templates
+- Practice with workflows (proven sequences)
+- Learn from every task via episodic, semantic, and procedural memory
+- Improve autonomously with each execution
+- Build persistent knowledge that makes them smarter immediately
 
-| Area | What it delivers |
-| --- | --- |
-| Skill Library | 51 installed skill modules across 27 categories for engineering, QA, AI, security, architecture, workflow composition, and more |
-| MCP Runtime | 44 active MCP-exposed tools today through the packaged skills registry |
-| Workflow Layer | 50+ documented workflow patterns and acquisition plans for orchestration at scale |
-| Standards and Governance | Leeway Standards integration for headers, compliance scanning, remediation, and operational guardrails |
-| NPM Distribution | Installable package and CLI surface via `@leeway/agent-skills` |
-| Integration Proof | Badge bundle generator to visibly prove another application is powered by LeeWay Agent Skills |
+**Not for humans. Not time-based. For LLMs only.**
 
-## Built For
+**Status**: ✅ Production Ready | ✅ Learning Enabled | ✅ All Agents Welcome
 
-- Developers building faster with structured AI capabilities instead of ad hoc prompting
-- Engineering organizations that want reusable agent skills with governance built in
-- AI product teams shipping assistants, copilots, internal platforms, or MCP servers
-- Agencies, consultants, and platform teams who need proof-backed AI integration assets
-- Multi-agent and workflow builders who need a growing skill and orchestration layer
+## 🔒 Leeway Standards Compliance
 
-## Product Positioning
+**✅ Status**: ACTIVE COMPLIANCE MONITORING  
+**Framework**: Leeway SDK 1.0.0  
+**Score Target**: 85/100  
+**Last Audit**: March 15, 2026
 
-LeeWay Agent Skills is not just a prompt collection and not just a documentation dump. It is a packaged capability layer for agentic software systems.
+This project is fully integrated with **Leeway Standards** governance framework. All skills, agents, and code files are continuously monitored for:
 
-It combines:
+- ✅ Mandatory headers on tracked files
+- ✅ No hardcoded secrets in code
+- ✅ Valid tags and regions (REGION/TAG)
+- ✅ No circular dependencies
+- ✅ Complete documentation coverage
 
-- A reusable skill library
-- A callable MCP tool surface
-- Workflow composition strategy
-- Governance and compliance automation
-- Badge-driven proof of integration
-- A distribution model that works through GitHub and npm
+**Compliance Monitoring Agents**:
 
-That combination makes it useful both as an engineering asset and as a platform story you can deploy, demonstrate, and sell internally or externally.
+- `ComplianceMonitor` — Hourly compliance scans
+- `SkillValidator` — Per-skill validation
+- `AutonomyAuditor` — Weekly agent pattern audits
+- `HeaderInjector` — Automated Leeway header injection
 
-## Quick Start
-
-### Install From npm
+**Quick Commands**:
 
 ```powershell
-npm install @leeway/agent-skills
+# Initialize and check compliance (first time)
+node scripts/init-leeway.js
+
+# Run full compliance audit
+node scripts/leeway-agents/compliance-monitor.js
+
+# Auto-fix missing headers
+node scripts/leeway-agents/header-injector.js
 ```
+
+📖 **Docs**: [Leeway Standards Compliance](documents/LEEWAY_STANDARDS_COMPLIANCE.md) | [Integration Guide](documents/LEEWAY_INTEGRATION_GUIDE.md)
+
+## MCP Server - Use Skills as Tools
+
+**NEW**: Leeway Agent Skills is now available as an **MCP (Model Context Protocol) server**, allowing Agent Lee and other LLMs to use all 44 skills as first-class callable tools.
+
+### Install As Full NPM SDK
+
+You can now install the **full Leeway Agent Skills application** as one npm package:
+
+```powershell
+npm install @agentlee5/agent-skills
+```
+
+That install ships the skill library, workflows, standards toolkit, scripts, badge asset, runtime config, and the built MCP server together.
+
+Quick commands after install:
 
 ```powershell
 leeway-agent-skills info
 leeway-agent-skills-mcp
-leeway-agent-skills-badge .\public\leeway-proof "My App" mcp-server
+leeway-agent-skills-badge .\public "My App" mcp-server
+leeway-agent-skills extract .\leeway-agent-skills-app
 ```
 
-Compatibility aliases are also included:
+### Quick Start
 
 ```powershell
-leeway-skills info
-leeway-skills-mcp
+# 1. Install & build the MCP server
+cd mcp-server
+npm install
+npm run build
+
+# 2. Start the server
+npm start
+
+# Expected: [Leeway Skills MCP] Loaded 44 skills + Server started
 ```
 
-### Clone The Repository
+### Use Skills in Agent Lee
 
-```powershell
-git clone https://github.com/4citeB4U/LeeWay-Agent-Skills.git
-cd LeeWay-Agent-Skills
-npm --prefix mcp-server install
-npm --prefix mcp-server run build
-node .\bin\leeway-skills.js info
-```
-
-### Run The MCP Server
-
-```powershell
-node .\bin\leeway-skills.js mcp
-```
-
-### Generate A Proof-Backed Badge Bundle
-
-```powershell
-node .\bin\leeway-skills.js badge .\public\leeway-proof "My App" mcp-server
-```
-
-## How Developers Use It
-
-| Use case | What LeeWay Agent Skills adds |
-| --- | --- |
-| Internal engineering copilots | Reusable skill modules, clearer execution prompts, and callable tools |
-| CI and delivery automation | Workflow composition patterns for diagnosis, recovery, validation, and release handling |
-| Code generation and review | Structured expertise across TypeScript, Python, testing, architecture, and security |
-| Security and compliance | Standards checks, header enforcement, secret scanning, and remediation helpers |
-| Productized AI platforms | Badge proof bundles and npm distribution for integration into other apps |
-
-## Architecture At A Glance
+Configure Agent Lee to connect to the MCP server, then:
 
 ```text
-Skills -> Workflows -> MCP Tools -> Agents -> Governance -> Proof
+Agent Lee: "Use the typescript-codegen skill to create an API client"
+→ Agent Lee calls typescript-codegen tool
+→ Gets production TypeScript code with proper types and error handling
 ```
+
+### Why MCP?
+
+Instead of just reading documentation, your agents can now:
+
+- ✅ **Call skills as tools** - Execute skill expertise directly
+- ✅ **Chain skills** - Compose multiple skills together
+- ✅ **Share skills** - Pass tools between agents and LLMs
+- ✅ **Discover tools** - LLMs discover 44 available skills
+- ✅ **Structured results** - Get formatted output ready to use
+
+### 📚 Documentation
+
+- **[MCP Server README](mcp-server/README.md)** - How to run and use the MCP server
+- **[Agent Lee Integration](documents/AGENT_LEE_INTEGRATION.md)** - Connect Agent Lee to Leeway Agent Skills
+- **[MCP Architecture](documents/MCP_ARCHITECTURE.md)** - Technical deep dive into the MCP implementation
+- **[Badge Integration](documents/LEEWAY_BADGE_INTEGRATION.md)** - Add a proof badge to another application
+- **[NPM SDK Guide](documents/LEEWAY_NPM_SDK.md)** - Install the full Leeway Agent Skills application from npm
+
+---
+
+## � Leeway Workflows - Automated Orchestration
+
+**NEW**: Beyond individual skills, **Leeway Workflows** provides pre-engineered automation templates that compose skills into proven end-to-end processes.
+
+### What You Get
+
+Instead of "grab one skill at a time," you now get **workflow bundles**:
 
 ```text
-LeeWay Agent Skills
-  |- skills/                 reusable capability modules
-  |- mcp-server/             packaged Model Context Protocol server
-  |- LeeWay-Standards/       governance, scanning, and repair tooling
-  |- scripts/                automation and registry utilities
-  |- documents/              strategy, planning, architecture, and rollout docs
-  |- bin/                    package-level developer CLIs
-  `- sdk/                    importable runtime helpers and path utilities
+Workflow: "CI Failure Recovery"
+├─ Auto-loads 5 required skills:
+│  ├─ skill.ci-log-analysis
+│  ├─ skill.error-diagnosis
+│  ├─ skill.code-fix-generator
+│  ├─ skill.test-validation
+│  └─ skill.pr-creation
+├─ Executes in proven sequence:
+│  1. Parse CI failure
+│  2. Diagnose root cause
+│  3. Generate fix
+│  4. Test the fix
+│  5. Create PR
+└─ Result: Automated CI failure recovery (no manual intervention)
 ```
 
-## Core Capabilities
+### Workflow Categories (50+ Templates)
 
-### Skill Library
+| Category                       | Count | Examples                                                            |
+| ------------------------------ | ----- | ------------------------------------------------------------------- |
+| **Automation & Orchestration** | 8     | Sequential task chain, Hierarchical delegation, Event router        |
+| **Analysis & Insights**        | 7     | Daily reports, Weekly summaries, Trend analysis, Research synthesis |
+| **Code Quality**               | 6     | CI failure recovery, Code review, Test improvement, Simplification  |
+| **Security & Compliance**      | 5     | Malicious code detection, Access audits, Patch management           |
+| **Product & Growth**           | 5     | User feedback analysis, Market research, Feature prioritization     |
+| **DevOps & Infrastructure**    | 4     | Deployment pipeline, Resource optimization, Health monitoring       |
+| **Collaboration**              | 4     | Status summaries, Team coordination, Feedback loops                 |
+| **RAG & Knowledge**            | 3     | Document retrieval, Knowledge updates, Context injection            |
+| **Meta/System**                | 3     | Workflow optimization, Self-improvement, Telemetry                  |
 
-The `skills/` tree contains the actual operating knowledge for the system. These skills cover code generation, debugging, testing, infrastructure, AI/ML, architecture, security, research, workflow composition, and more.
+### Workflow Acquisition
 
-### MCP Server
+**PHASE 1 COMPLETE**: Strategic acquisition plan for 50+ production-proven workflows from elite GitHub repositories.
 
-The packaged MCP server exposes the active skill registry as callable tools so LLMs and agent frameworks can interact with the system as runtime capabilities instead of static reference text.
+| Source                | Workflows | Framework                      | Status               |
+| --------------------- | --------- | ------------------------------ | -------------------- |
+| **GitHub Agentics**   | 20+       | GitHub Agentic Workflows       | 📋 Ready             |
+| **CrewAI**            | 15+       | CrewAI (Crews + Flows)         | 📋 Ready             |
+| **Microsoft AutoGen** | 12+       | AutoGen (FSM + Multi-agent)    | 📋 Ready             |
+| **LangGraph**         | 18+       | LangGraph (DAGs + Persistence) | 📋 Ready             |
+| **SuperAGI**          | 8+        | SuperAGI (Enterprise patterns) | 📋 Ready             |
+| **Total**             | **50+**   | **Multi-framework**            | **Ready to Execute** |
 
-Start here: [mcp-server/README.md](mcp-server/README.md)
+### Documentation
 
-### Workflow Strategy
+Workflows are fully documented and ready to deploy:
 
-LeeWay Agent Skills includes workflow planning and orchestration strategy for higher-order execution, including pre-composed bundles for CI recovery, reporting, coordination, analysis, and agent collaboration.
+1. [**LEEWAY_WORKFLOWS_STRATEGIC_PLAN.md**](documents/LEEWAY_WORKFLOWS_STRATEGIC_PLAN.md) - Strategic blueprint (5 sources, 50+ workflows, composition patterns)
+2. [**WORKFLOW_ACQUISITION_MANIFEST.md**](documents/WORKFLOW_ACQUISITION_MANIFEST.md) - Complete inventory (all 50+ workflows catalogued)
+3. [**SKILL_WORKFLOW_COMPOSITION_MATRIX.md**](documents/SKILL_WORKFLOW_COMPOSITION_MATRIX.md) - Skill-to-workflow mapping (how 250 skills compose into workflows)
+4. [**workflow-integration-toolkit.py**](scripts/workflow-integration-toolkit.py) - Automation for workflow acquisition and execution
 
-Start here: [documents/LEEWAY_WORKFLOWS_STRATEGIC_PLAN.md](documents/LEEWAY_WORKFLOWS_STRATEGIC_PLAN.md)
+### How Skills + Workflows Work Together
 
-### Governance And Standards
+```text
+250+ Skills (Capabilities)
+        ↓
+   50+ Workflows (Orchestration)
+        ↓
+   Agent Lee (Execution)
+        ↓
+Enterprise-Grade Automation
+```
 
-The project integrates Leeway Standards so teams can add headers, scan compliance posture, and improve consistency across files, agents, and automation pipelines.
+**Without workflows**: Agent Lee loads individual skills manually  
+**With workflows**: Agent Lee loads pre-composed bundles of 5-10 skills working together
 
-Start here: [documents/LEEWAY_STANDARDS_COMPLIANCE.md](documents/LEEWAY_STANDARDS_COMPLIANCE.md)
+---
 
-### Badge And Proof Integration
+## �🚀 Skill Acquisition Initiative: 250+ World-Class Skills
 
-If another application uses LeeWay Agent Skills, the badge tooling can generate visible proof files and embeddable assets so usage is not hidden or hand-wavy.
+**PHASE 1 COMPLETE**: Comprehensive acquisition plan for 250+ production-ready skills from elite GitHub repositories.
 
-Start here: [documents/LEEWAY_BADGE_INTEGRATION.md](documents/LEEWAY_BADGE_INTEGRATION.md)
+### What We're Acquiring
 
-## Repository Guide
+| Source                         | Skills      | Quality              | Status               |
+| ------------------------------ | ----------- | -------------------- | -------------------- |
+| alirezarezvani/claude-skills   | 177         | ⭐⭐⭐⭐⭐           | 🎯 Planning          |
+| anthropics/skills              | 15+         | ⭐⭐⭐⭐⭐           | 🎯 Planning          |
+| nextlevelbuilder/ui-ux-pro-max | 1 (+assets) | ⭐⭐⭐⭐⭐           | 🎯 Planning          |
+| obra/superpowers + community   | 30+         | ⭐⭐⭐⭐             | 🎯 Planning          |
+| **TOTAL**                      | **250+**    | **Production-Grade** | **Ready to Execute** |
 
-| Path | Purpose |
-| --- | --- |
-| `README.md` | Project overview, positioning, and developer onboarding |
-| `package.json` | Root npm package for `@leeway/agent-skills` |
-| `skills/` | Installed skill library |
-| `mcp-server/` | MCP runtime source and packaged build output |
-| `LeeWay-Standards/` | Governance toolkit and CLI |
-| `scripts/` | Registry, compliance, bootstrap, and workflow tooling |
-| `documents/` | Strategic, technical, and operational documentation |
-| `sdk/` | Importable helpers for packaged consumers |
-| `bin/` | CLI entrypoints for package users |
+### The Vision
 
-## Documentation Map
+Transform Leeway Skills from 44 specialized skills into a **comprehensive 250+ skill library** that makes any LLM (including small 7B-13B models) behave like enterprise-grade AI across 23+ domains.
 
-- [NPM SDK Guide](documents/LEEWAY_NPM_SDK.md)
-- [MCP Architecture](documents/MCP_ARCHITECTURE.md)
-- [Agent Lee Integration](documents/AGENT_LEE_INTEGRATION.md)
-- [Leeway Standards Compliance](documents/LEEWAY_STANDARDS_COMPLIANCE.md)
-- [Workflow Strategic Plan](documents/LEEWAY_WORKFLOWS_STRATEGIC_PLAN.md)
-- [Skill Acquisition Executive Summary](documents/SKILL_ACQUISITION_EXECUTIVE_SUMMARY.md)
+### Skill Categories (250+ Total)
 
-## Current Status
+- **Engineering** (68): Code generation, testing, DevOps, security, databases, APIs
+- **Business** (95): Marketing (43), C-Suite (28), Product (12), Project Mgmt (6), Operations (6)
+- **Design** (20): UI/UX systems, frontend, typography, color theory, design patterns
+- **Compliance** (12): ISO, FDA, GDPR, risk management, auditing
+- **Meta Skills** (18): Orchestration, composition, self-improvement, skill creation
+- **Specialized** (25+): Industry-specific, emerging tech, vertical solutions
 
-| Signal | Status |
-| --- | --- |
-| Repository path | `C:\Tools\LeeWay-AgentSkills` |
-| Package name | `@leeway/agent-skills` |
-| Installed skill modules | 51 |
-| Installed categories | 27 |
-| Active MCP tools in registry | 44 |
-| Workflow roadmap | 50+ documented patterns |
-| Expansion roadmap | 250+ target skill acquisition plan |
+### Documentation & Execution Plan
 
-## Roadmap
+All planning documents are ready:
 
-- Sync the active registry to fully reflect all installed skills
-- Publish and stabilize the npm package lifecycle
-- Expand toward the 250+ skill acquisition roadmap
-- Add more production-ready workflow bundles and integration examples
-- Strengthen productized deployment stories for internal AI platforms and external SaaS products
+1. [**SKILL_ACQUISITION_EXECUTIVE_SUMMARY.md**](documents/SKILL_ACQUISITION_EXECUTIVE_SUMMARY.md) - Overview & ROI
+2. [**COMPREHENSIVE_SKILL_INTEGRATION_PLAN.md**](documents/COMPREHENSIVE_SKILL_INTEGRATION_PLAN.md) - Full strategic blueprint (250+ page detailed plan)
+3. [**SKILL_ACQUISITION_MANIFEST.md**](documents/SKILL_ACQUISITION_MANIFEST.md) - Master checklist (all 250 skills listed by source)
+4. [**SKILL_ACQUISITION_IMPLEMENTATION.md**](documents/SKILL_ACQUISITION_IMPLEMENTATION.md) - Step-by-step execution guide (5-week timeline)
+5. [**skill-integration-toolkit.py**](scripts/skill-integration-toolkit.py) - Automation scripts for normalization & deduplication
 
-## Why It Matters For Engineering Leaders
+### 5-Week Execution Plan
 
-LeeWay Agent Skills gives technical teams a cleaner answer to a hard problem: how do you make AI behavior more reusable, inspectable, composable, and governable?
+| Phase | Week | Deliverable                             |
+| ----- | ---- | --------------------------------------- |
+| 1     | W1   | Repo audit & setup (all sources cloned) |
+| 2     | W1-2 | Engineering core normalized (68 skills) |
+| 3     | W2-3 | Product/Marketing/Business (95 skills)  |
+| 4     | W3-4 | Design systems & compliance (32 skills) |
+| 5     | W4-5 | Complete registry build & testing       |
 
-This repository answers that with a system developers can actually adopt:
+### Ready to Execute?
 
-- installable
-- inspectable
-- documentable
-- extensible
-- compatible with MCP
-- aligned with governance
+Start with: [SKILL_ACQUISITION_EXECUTIVE_SUMMARY.md](documents/SKILL_ACQUISITION_EXECUTIVE_SUMMARY.md) → [SKILL_ACQUISITION_IMPLEMENTATION.md](documents/SKILL_ACQUISITION_IMPLEMENTATION.md)
 
-That makes it easier to turn AI from a fragile experiment into an engineering capability.
+---
 
-## Contributing
+## �📁 Directory Structure
 
-Contributions should preserve the structure of the skill system, keep non-README markdown inside `documents/`, and maintain compatibility with the Leeway Standards governance model.
+```text
+Leeway Skills/
+├── skills/                          # All skill definitions
+│   ├── code-generation/             # Code generation and scaffolding
+│   │   ├── typescript-codegen/
+│   │   └── python-codegen/
+│   ├── code-analysis/               # Code review and analysis
+│   │   ├── static-analysis/
+│   │   └── refactoring/
+│   ├── data-analysis/               # Data science and analysis
+│   │   └── pandas-analysis/
+│   ├── devops/                      # DevOps and infrastructure
+│   │   ├── dockerfile-creation/
+│   │   └── kubernetes-deployment/
+│   ├── web-development/             # Web technologies
+│   │   ├── react-development/
+│   │   └── css-styling/
+│   ├── debugging/                   # Debugging techniques
+│   │   ├── javascript-debugging/
+│   │   └── python-debugging/
+│   ├── testing/                     # Testing frameworks
+│   │   ├── unit-testing/
+│   │   └── integration-testing/
+│   ├── ai-ml/                       # AI and ML expertise
+│   │   ├── llm-prompting/
+│   │   └── ml-model-development/
+│   ├── security/                    # Security and vulnerability
+│   │   └── code-security/
+│   ├── documentation/               # Documentation
+│   │   └── api-documentation/
+│   ├── architecture/                # System design
+│   │   └── system-design/
+│   └── git-workflow/                # Version control
+│       └── git-collaboration/
+├── scripts/                         # Utility scripts
+│   ├── sync-skills.ps1             # PowerShell sync script
+│   └── skills-registry.json        # Skills index
+├── config/                          # Configuration files
+│   ├── skills-config.json          # Global configuration
+│   └── .skillsignore               # Exclude patterns
+├── documents/                       # Project documentation
+│   ├── STRUCTURE.md                # Detailed structure docs
+│   ├── SETUP.md                    # Setup guide
+│   └── ...                         # Additional planning and reference docs
+├── README.md                        # This file
+└── agent-config.yaml                # Agent/runtime configuration
 
-## License
+```
 
-MIT. See [LICENSE](LICENSE).
+## 🎯 Categories
+
+### Code Generation
+
+- **TypeScript**: Type-safe TypeScript/JavaScript code generation
+- **Python**: Pythonic code generation with type hints
+
+### Code Analysis
+
+- **Static Analysis**: Code quality, complexity, anti-patterns
+- **Refactoring**: Code restructuring and improvement
+
+### Data Analysis
+
+- **Pandas Analysis**: Data manipulation and statistical analysis
+
+### DevOps
+
+- **Dockerfile Creation**: Container creation and optimization
+- **Kubernetes Deployment**: K8s manifests and deployment
+
+### Web Development
+
+- **React**: Modern React with hooks and patterns
+- **CSS Styling**: Responsive and accessible styling
+
+### Debugging
+
+- **JavaScript Debugging**: Browser and Node.js debugging
+- **Python Debugging**: pdb and IDE debugging
+
+### Testing
+
+- **Unit Testing**: Jest, Pytest, and mocking
+- **Integration Testing**: API and integration tests
+
+### AI/ML
+
+- **LLM Prompting**: Prompt engineering and optimization
+- **ML Model Development**: scikit-learn, TensorFlow, PyTorch
+
+### Security
+
+- **Code Security**: Vulnerability detection and fixes
+
+### Documentation Skills
+
+- **API Documentation**: OpenAPI, Swagger, examples
+
+### Architecture
+
+- **System Design**: Distributed systems and patterns
+
+### Git Workflow
+
+- **Git Collaboration**: Branching, reviews, releases
+
+## 🚀 Quick Start
+
+1. **Point your LLM** to the `skills/` directory for skill discovery
+2. **Run the sync script** to update skills from upstream sources
+3. **Check the registry** (`skills-registry.json`) to see available skills
+4. **Reference by category** when asking the LLM to use specific expertise
+
+## 📋 Using Skills
+
+### For Copilot/Claude/Similar LLMs
+
+Place the skills directory in the LLM's discovery path:
+
+- Project-level: `.agents/skills/` or `.claude/skills/`
+- User-level: `~/.agents/skills/` or `~/.config/opencode/skills`
+
+### Configuration
+
+Each skill contains a `SKILL.md` file with:
+
+- **Description**: What the skill does
+- **Capabilities**: Specific things it can do
+- **Use cases**: When to apply this skill
+- **Techniques**: Key approaches and patterns
+- **Tags**: Searchable metadata
+
+### Skill Selection Example
+
+```text
+"I need to generate a Python FastAPI application.
+Use the python-codegen skill with proper async/await patterns."
+```
+
+## 🔄 Synchronization
+
+Use `scripts/sync-skills.ps1` to:
+
+- Update skills from upstream repositories
+- Check for new public skill collections
+- Validate SKILL.md structure
+- Generate registry
+
+```powershell
+.\scripts\sync-skills.ps1 -Update -Validate
+```
+
+## 📊 Skills Registry
+
+The `skills-registry.json` contains:
+
+- Skill metadata (name, version, category)
+- Tags and keywords
+- Dependencies
+- Last updated timestamp
+- Source repository
+
+## 🏷️ Tagging System
+
+Skills are tagged by:
+
+- **Language**: typescript, python, javascript, java, etc.
+- **Domain**: devops, testing, security, etc.
+- **Methodology**: agile, tdd, bdd, etc.
+- **Tool**: jest, pytest, docker, k8s, etc.
+- **Level**: beginner, intermediate, expert
+
+## 📖 Key Files
+
+| File                           | Purpose                            |
+| ------------------------------ | ---------------------------------- |
+| `SKILL.md`                     | Skill definition and documentation |
+| `scripts/sync-skills.ps1`      | Update and manage skills           |
+| `config/skills-config.json`    | Global configuration               |
+| `scripts/skills-registry.json` | Searchable skill index             |
+
+## 🔄 Extending the Skills Directory
+
+### Adding a New Skill
+
+1. Create a directory under the appropriate category:
+
+   ```text
+   skills/{category}/{skill-name}/
+   ```
+
+2. Create `SKILL.md` with:
+
+   ```markdown
+   # Skill Name
+
+   **Expert in**: Brief description
+
+   ## Capabilities
+
+   - What it does
+
+   ## Use this skill when
+
+   - When to apply
+
+   ## Key techniques
+
+   - How it works
+
+   ## Tags
+
+   `tag1` `tag2` `tag3`
+   ```
+
+3. Run the sync script to update the registry
+
+### Creating a New Category
+
+1. Create the directory: `skills/{new-category}/`
+2. Update `skills-registry.json`
+3. Add documentation to this README
+
+## 💾 Backup and Export
+
+Backup the entire skills directory:
+
+```powershell
+Copy-Item -Path "c:\Tools\Leeway-Skills\skills" -Destination "c:\Backups\leeway-skills-$(Get-Date -f 'yyyy-MM-dd')" -Recurse
+```
+
+Export skills as JSON catalog:
+
+```powershell
+Get-ChildItem -Path "skills" -Recurse -Filter "SKILL.md" | ConvertTo-Json > skills-export.json
+```
+
+## 🤝 Contributing
+
+To add new skills or categories:
+
+1. Follow the SKILL.md template
+2. Organize by category
+3. Add appropriate tags
+4. Update the registry
+5. Document in README
+
+## 📝 Notes
+
+- Each skill is self-contained in its own directory
+- SKILL.md files are the primary documentation
+- Tags enable efficient skill discovery
+- Skills can be disabled via config without deletion
+- Symlinks are supported for shared skills
+
+---
+
+**Last Updated**: 2026-03-15  
+**Skills Count**: 19 core skills  
+**Categories**: 13  
+**Version**: 1.0.0

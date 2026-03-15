@@ -7,7 +7,7 @@ The root package now ships the **full Leeway Agent Skills application** as an in
 Package name:
 
 ```text
-@leeway/agent-skills
+@agentlee5/agent-skills
 ```
 
 That package includes:
@@ -24,7 +24,7 @@ That package includes:
 ## Install
 
 ```powershell
-npm install @leeway/agent-skills
+npm install @agentlee5/agent-skills
 ```
 
 ## CLI Commands
@@ -47,7 +47,7 @@ import {
   installLeewaySkillsBadgeBundle,
   startLeewaySkillsMCPServer,
   extractLeewayApplication,
-} from "@leeway/agent-skills";
+} from "@agentlee5/agent-skills";
 
 const summary = await getPackageSummary();
 console.log(summary.activeSkills);

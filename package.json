@@ -1,5 +1,5 @@
 {
-  "name": "@leeway/agent-skills",
+  "name": "@agentlee5/agent-skills",
   "version": "1.0.0",
   "description": "Full Leeway Agent Skills application bundle for npm, including the MCP server, standards toolkit, skill library, workflows, badge assets, and governance automation.",
   "type": "module",
