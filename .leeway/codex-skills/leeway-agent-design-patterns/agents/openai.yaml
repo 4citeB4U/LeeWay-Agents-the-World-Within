@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agent Patterns and Architectures"
+  short_description: "Agent Patterns and Architectures guidance"
+  default_prompt: "Use $leeway-agent-design-patterns to help with building autonomous agents that use tools."
+
+policy:
+  allow_implicit_invocation: true

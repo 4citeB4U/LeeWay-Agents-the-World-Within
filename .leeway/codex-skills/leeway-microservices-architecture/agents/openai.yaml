@@ -1,0 +1,7 @@
+interface:
+  display_name: "Microservices Architecture and Design"
+  short_description: "Microservices Architecture and Design guidance"
+  default_prompt: "Use $leeway-microservices-architecture to help with building large-scale systems."
+
+policy:
+  allow_implicit_invocation: true

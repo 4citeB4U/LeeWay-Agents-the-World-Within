@@ -1,0 +1,7 @@
+interface:
+  display_name: "Unit Testing"
+  short_description: "Unit Testing guidance"
+  default_prompt: "Use $leeway-unit-testing to help with adding tests to new code."
+
+policy:
+  allow_implicit_invocation: true

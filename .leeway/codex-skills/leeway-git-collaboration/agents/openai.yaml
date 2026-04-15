@@ -1,0 +1,7 @@
+interface:
+  display_name: "Git Workflow and Collaboration"
+  short_description: "Git Workflow and Collaboration guidance"
+  default_prompt: "Use $leeway-git-collaboration to help with setting up repository structures."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Leeway NPM SDK"
+  short_description: "Leeway npm SDK and CLI guide"
+  default_prompt: "Use $leeway-npm-sdk to install or script the packaged Leeway Agent Skills SDK."
+
+policy:
+  allow_implicit_invocation: true

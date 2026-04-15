@@ -1,0 +1,7 @@
+interface:
+  display_name: "Load Testing and Capacity Planning"
+  short_description: "Load Testing and Capacity Planning guidance"
+  default_prompt: "Use $leeway-load-testing-capacity to help with planning infrastructure capacity."
+
+policy:
+  allow_implicit_invocation: true

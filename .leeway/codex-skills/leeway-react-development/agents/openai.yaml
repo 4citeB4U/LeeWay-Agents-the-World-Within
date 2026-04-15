@@ -1,0 +1,7 @@
+interface:
+  display_name: "React Development"
+  short_description: "React Development guidance"
+  default_prompt: "Use $leeway-react-development to help with building react applications."
+
+policy:
+  allow_implicit_invocation: true

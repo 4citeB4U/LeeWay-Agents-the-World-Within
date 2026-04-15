@@ -1,0 +1,7 @@
+interface:
+  display_name: "Machine Learning Model Development"
+  short_description: "Machine Learning Model Development guidance"
+  default_prompt: "Use $leeway-ml-model-development to help with building classification/regression models."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Leeway Standards"
+  short_description: "Leeway governance and coding standards"
+  default_prompt: "Use $leeway-standards to keep this work compliant with Leeway headers, REGION and TAG metadata, and repo safety rules."
+
+policy:
+  allow_implicit_invocation: true

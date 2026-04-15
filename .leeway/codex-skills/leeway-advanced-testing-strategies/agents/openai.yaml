@@ -1,0 +1,7 @@
+interface:
+  display_name: "Advanced Testing Strategies"
+  short_description: "Advanced Testing Strategies guidance"
+  default_prompt: "Use $leeway-advanced-testing-strategies to help with need comprehensive test coverage."
+
+policy:
+  allow_implicit_invocation: true

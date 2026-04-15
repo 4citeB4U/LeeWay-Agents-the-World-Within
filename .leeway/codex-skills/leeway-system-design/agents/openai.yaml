@@ -1,0 +1,7 @@
+interface:
+  display_name: "System Design and Architecture"
+  short_description: "System Design and Architecture guidance"
+  default_prompt: "Use $leeway-system-design to help with planning new systems."
+
+policy:
+  allow_implicit_invocation: true

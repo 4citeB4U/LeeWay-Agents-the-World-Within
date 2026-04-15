@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "llmDiscoveryPaths": [
+    ".agents/skills",
+    ".claude/skills",
+    "~/.agents/skills",
+    "~/.config/opencode/skills"
+  ],
+  "skillDefaults": {
+    "enabled": true,
+    "visibility": "public",
+    "searchable": true
+  },
+  "categorization": {
+    "enforceCategories": true,
+    "allowsMultipleCategories": false,
+    "requiredFields": ["name", "description", "capabilities", "tags"]
+  },
+  "tagging": {
+    "enforceTagging": true,
+    "minimumTags": 3,
+    "maximumTags": 10,
+    "allowedTagTypes": [
+      "language",
+      "domain",
+      "methodology",
+      "tool",
+      "framework",
+      "level",
+      "custom"
+    ]
+  },
+  "validation": {
+    "validateSKILLmd": true,
+    "requiredSections": [
+      "Expert in",
+      "Capabilities",
+      "Use this skill when",
+      "Key techniques",
+      "Tags"
+    ],
+    "checkForDuplicates": true,
+    "enforceMD5": false
+  },
+  "discovery": {
+    "recursiveSearch": true,
+    "filePattern": "**/SKILL.md",
+    "ignoreDotFiles": true,
+    "ignorePatterns": ["node_modules", "dist", "build", ".git", "__pycache__"]
+  },
+  "performance": {
+    "cacheRegistry": true,
+    "cacheDuration": 3600,
+    "maxSkillsPerQuery": 50,
+    "loadOrderedByFrequency": true
+  },
+  "features": {
+    "enableSymlinks": true,
+    "enableVersioning": true,
+    "enableDependencies": true,
+    "enableConflictResolution": true,
+    "enableMetadata": true
+  },
+  "monitoring": {
+    "logSkillUsage": true,
+    "trackPerformance": true,
+    "alertOnErrors": true,
+    "collectionInterval": 300000
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Advanced Frontend Patterns"
+  short_description: "Advanced Frontend Patterns guidance"
+  default_prompt: "Use $leeway-advanced-frontend-patterns to help with building complex interactive applications."
+
+policy:
+  allow_implicit_invocation: true

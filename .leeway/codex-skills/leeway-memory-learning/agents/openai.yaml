@@ -1,0 +1,7 @@
+interface:
+  display_name: "Memory and Continuous Learning"
+  short_description: "Memory and Continuous Learning guidance"
+  default_prompt: "Use $leeway-memory-learning to help with capturing decisions with rationale and outcomes."
+
+policy:
+  allow_implicit_invocation: true

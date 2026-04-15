@@ -1,0 +1,34 @@
+{
+  "proofVersion": "1.0.0",
+  "generatedAt": "2026-03-15T21:28:40.229Z",
+  "app": {
+    "name": "Leeway SDK CLI",
+    "integrationMethod": "sdk"
+  },
+  "leewaySkills": {
+    "registryVersion": "2.0.0",
+    "governanceFramework": "Leeway Standards",
+    "activeSkills": 44,
+    "activeCategories": 24,
+    "installedSkills": 51,
+    "installedCategories": 27,
+    "registryPath": "C:\\Tools\\AIskills\\scripts\\skills-registry.json",
+    "registrySha256": "a3d8260440ac51f0183801dddb9700a95838d78a816eea2674bcf1223773d1cb",
+    "mcpServerVersion": "1.0.0",
+    "syncStatus": "partial"
+  },
+  "badge": {
+    "label": "Powered by Leeway Skills",
+    "alt": "Powered by Leeway Skills badge",
+    "sourceFile": "agentbage.png.png",
+    "assetPath": "./assets/leeway-skills-agent-badge.png",
+    "badgeSha256": "ed6ae18ec32a565ecb7b8abd6558d22a157bd44ac653c9f8bfb1894b717a58e3"
+  },
+  "verification": {
+    "status": "verified",
+    "statement": "Leeway SDK CLI is verified as using Leeway Skills through sdk.",
+    "warnings": [
+      "Registry exposes 44 skills across 24 categories while 51 skills across 27 categories are installed locally."
+    ]
+  }
+}

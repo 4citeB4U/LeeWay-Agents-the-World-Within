@@ -1,0 +1,7 @@
+interface:
+  display_name: "Leeway Workflows"
+  short_description: "Leeway workflow orchestration guide"
+  default_prompt: "Use $leeway-workflows to understand or extend Leeway workflow orchestration."
+
+policy:
+  allow_implicit_invocation: true

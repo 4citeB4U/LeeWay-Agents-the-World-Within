@@ -1,0 +1,7 @@
+interface:
+  display_name: "Error Handling and Resilience"
+  short_description: "Error Handling and Resilience guidance"
+  default_prompt: "Use $leeway-resilience-patterns to help with building production systems needing reliability."
+
+policy:
+  allow_implicit_invocation: true

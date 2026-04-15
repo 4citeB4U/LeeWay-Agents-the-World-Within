@@ -1,0 +1,7 @@
+interface:
+  display_name: "CSS Styling and Layout"
+  short_description: "CSS Styling and Layout guidance"
+  default_prompt: "Use $leeway-css-styling to help with building responsive layouts."
+
+policy:
+  allow_implicit_invocation: true

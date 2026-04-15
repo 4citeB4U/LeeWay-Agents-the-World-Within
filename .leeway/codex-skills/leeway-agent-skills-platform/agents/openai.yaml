@@ -1,0 +1,7 @@
+interface:
+  display_name: "Leeway Agent Skills Platform"
+  short_description: "Full Leeway application platform guide"
+  default_prompt: "Use $leeway-agent-skills-platform to understand or extend the full Leeway Agent Skills application."
+
+policy:
+  allow_implicit_invocation: true

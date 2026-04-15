@@ -1,0 +1,7 @@
+interface:
+  display_name: "Observability and Monitoring"
+  short_description: "Observability and Monitoring guidance"
+  default_prompt: "Use $leeway-monitoring-and-observability to help with building production systems."
+
+policy:
+  allow_implicit_invocation: true

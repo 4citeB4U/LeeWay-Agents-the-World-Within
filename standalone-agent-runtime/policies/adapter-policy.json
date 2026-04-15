@@ -1,0 +1,34 @@
+{
+  "policy_name": "Sovereign Adapter Governance",
+  "version": "1.0.0",
+  "allow_unattended": {
+    "local_file_read": true,
+    "local_file_write": true,
+    "browser_navigation": true,
+    "email_drafting": true,
+    "call_status_monitoring": true
+  },
+  "require_approval": {
+    "email_send": "HIGH_RISK",
+    "call_initiate_outbound": "MEDIUM_RISK",
+    "load_matching_commit": "FINANCIAL",
+    "os_delete_file": "SYSTEM",
+    "payment_execution": "CRITICAL"
+  },
+  "adapters": {
+    "google_voice": {
+      "strategy": "browser_automation",
+      "target": "voice.google.com",
+      "human_in_loop": true
+    },
+    "gmail": {
+      "strategy": "oauth_plus_dom",
+      "target": "mail.google.com",
+      "policy": "draft_first"
+    },
+    "desktop": {
+      "strategy": "os_api",
+      "sandboxed": false
+    }
+  }
+}

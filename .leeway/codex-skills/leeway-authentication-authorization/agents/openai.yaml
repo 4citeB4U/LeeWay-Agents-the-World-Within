@@ -1,0 +1,7 @@
+interface:
+  display_name: "Authentication and Authorization"
+  short_description: "Authentication and Authorization guidance"
+  default_prompt: "Use $leeway-authentication-authorization to help with building user authentication."
+
+policy:
+  allow_implicit_invocation: true

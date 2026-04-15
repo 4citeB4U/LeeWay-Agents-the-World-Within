@@ -1,0 +1,7 @@
+interface:
+  display_name: "Infrastructure-as-Code"
+  short_description: "Infrastructure-as-Code guidance"
+  default_prompt: "Use $leeway-infrastructure-as-code to help with managing cloud infrastructure at scale."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Advanced Data Analytics"
+  short_description: "Advanced Data Analytics guidance"
+  default_prompt: "Use $leeway-advanced-analytics to help with need to make data-driven decisions."
+
+policy:
+  allow_implicit_invocation: true

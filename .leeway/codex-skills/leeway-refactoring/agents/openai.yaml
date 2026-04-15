@@ -1,0 +1,7 @@
+interface:
+  display_name: "Refactoring Code"
+  short_description: "Refactoring Code guidance"
+  default_prompt: "Use $leeway-refactoring to help with code is too complex or hard to understand."
+
+policy:
+  allow_implicit_invocation: true

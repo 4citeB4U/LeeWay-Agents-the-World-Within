@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multi-Agent Orchestration"
+  short_description: "Multi-Agent Orchestration guidance"
+  default_prompt: "Use $leeway-multi-agent-orchestration to help with building systems where multiple agents handle different subtasks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Full-Stack Application Delivery (AI Employee)"
+  short_description: "Full-Stack Application Delivery (AI Employee) guidance"
+  default_prompt: "Use $leeway-full-stack-delivery to help with breaking business goals into milestones and tasks."
+
+policy:
+  allow_implicit_invocation: true

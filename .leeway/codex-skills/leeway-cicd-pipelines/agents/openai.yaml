@@ -1,0 +1,7 @@
+interface:
+  display_name: "CI/CD Pipeline Engineering"
+  short_description: "CI/CD Pipeline Engineering guidance"
+  default_prompt: "Use $leeway-cicd-pipelines to help with automating software delivery."
+
+policy:
+  allow_implicit_invocation: true

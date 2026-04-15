@@ -1,0 +1,1117 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2026-03-15T12:00:00Z",
+  "totalSkills": 44,
+  "totalCategories": 24,
+  "description": "Comprehensive AI Agent and Full-Stack Development Skills Library with Agentic Patterns, Orchestration, and Production Systems",
+  "skills": [
+    {
+      "name": "TypeScript Code Generation",
+      "category": "code-generation",
+      "path": "skills/code-generation/typescript-codegen",
+      "version": "1.0.0",
+      "tags": [
+        "typescript",
+        "javascript",
+        "code-generation",
+        "types",
+        "modules"
+      ],
+      "description": "Generating production-ready TypeScript code, interfaces, types, and complete modules from specifications.",
+      "capabilities": [
+        "Generate type-safe code",
+        "Create interfaces and types",
+        "React components",
+        "Node.js server code"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Python Code Generation",
+      "category": "code-generation",
+      "path": "skills/code-generation/python-codegen",
+      "version": "1.0.0",
+      "tags": ["python", "code-generation", "dataclasses", "async", "fastapi"],
+      "description": "Generating Pythonic, idiomatic code with proper type hints, docstrings, and project structure.",
+      "capabilities": [
+        "Python modules",
+        "Dataclasses and Pydantic",
+        "FastAPI applications",
+        "Type hints"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Full-Stack Application Delivery",
+      "category": "code-generation",
+      "path": "skills/code-generation/full-stack-application",
+      "version": "1.0.0",
+      "tags": [
+        "full-stack",
+        "application",
+        "scaffolding",
+        "architecture",
+        "integration",
+        "complete"
+      ],
+      "description": "Building complete, production-ready applications from requirements to deployment with integrated frontend, backend, database, and infrastructure.",
+      "capabilities": [
+        "Complete application architectures",
+        "Frontend + API + Database",
+        "End-to-end data flows",
+        "Comprehensive testing"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Microservices Architecture",
+      "category": "code-generation",
+      "path": "skills/code-generation/microservices-architecture",
+      "version": "1.0.0",
+      "tags": [
+        "microservices",
+        "architecture",
+        "distributed",
+        "ddd",
+        "scalability",
+        "resilience"
+      ],
+      "description": "Designing and implementing scalable microservices architectures with proper decomposition, communication, and deployment strategies.",
+      "capabilities": [
+        "Service boundaries",
+        "Inter-service communication",
+        "Distributed resilience",
+        "Deployment strategies"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Static Code Analysis",
+      "category": "code-analysis",
+      "path": "skills/code-analysis/static-analysis",
+      "version": "1.0.0",
+      "tags": [
+        "code-analysis",
+        "quality",
+        "security",
+        "performance",
+        "refactoring"
+      ],
+      "description": "Analyzing code for patterns, anti-patterns, complexity, and potential issues without execution.",
+      "capabilities": [
+        "Code smells",
+        "Complexity analysis",
+        "Dead code detection",
+        "Security vulnerabilities"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Refactoring Code",
+      "category": "code-analysis",
+      "path": "skills/code-analysis/refactoring",
+      "version": "1.0.0",
+      "tags": [
+        "refactoring",
+        "code-improvement",
+        "maintainability",
+        "architecture"
+      ],
+      "description": "Restructuring code to improve readability, maintainability, and performance without changing behavior.",
+      "capabilities": [
+        "Extract methods",
+        "Remove duplication",
+        "Simplify logic",
+        "Improve organization"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Security Vulnerability Scanning",
+      "category": "code-analysis",
+      "path": "skills/code-analysis/security-vulnerability-scanning",
+      "version": "1.0.0",
+      "tags": [
+        "security",
+        "vulnerability",
+        "scanning",
+        "sast",
+        "dast",
+        "compliance"
+      ],
+      "description": "Identifying security vulnerabilities through automated scanning, analysis, and remediation strategies.",
+      "capabilities": [
+        "SAST scanning",
+        "DAST testing",
+        "Dependency scanning",
+        "Container scanning",
+        "Secret detection"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Pandas Data Analysis",
+      "category": "data-analysis",
+      "path": "skills/data-analysis/pandas-analysis",
+      "version": "1.0.0",
+      "tags": [
+        "python",
+        "data-analysis",
+        "pandas",
+        "statistics",
+        "visualization"
+      ],
+      "description": "Analyzing, transforming, and visualizing data using Pandas and Python data science tools.",
+      "capabilities": [
+        "Data loading and cleaning",
+        "Transformations",
+        "Statistical analysis",
+        "Visualizations"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Advanced Data Analytics",
+      "category": "data-analysis",
+      "path": "skills/data-analysis/advanced-analytics",
+      "version": "1.0.0",
+      "tags": [
+        "analytics",
+        "data-science",
+        "statistics",
+        "forecasting",
+        "testing",
+        "insights"
+      ],
+      "description": "Performing sophisticated data analysis including statistical testing, causal inference, and ML-based insights.",
+      "capabilities": [
+        "A/B testing",
+        "Causal inference",
+        "Forecasting",
+        "Clustering",
+        "Anomaly detection"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Dockerfile Creation",
+      "category": "devops",
+      "path": "skills/devops/dockerfile-creation",
+      "version": "1.0.0",
+      "tags": ["docker", "devops", "containerization", "ci-cd", "security"],
+      "description": "Creating efficient, secure, and maintainable Docker containers for applications.",
+      "capabilities": [
+        "Multi-stage Dockerfiles",
+        "Image optimization",
+        "Security best practices",
+        "Health checks"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Kubernetes Deployment",
+      "category": "devops",
+      "path": "skills/devops/kubernetes-deployment",
+      "version": "1.0.0",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "container-orchestration",
+        "deployment",
+        "scaling"
+      ],
+      "description": "Writing Kubernetes manifests, configuring deployments, and managing cluster operations.",
+      "capabilities": [
+        "YAML manifests",
+        "Resource configuration",
+        "Health checks",
+        "Scaling strategies"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Infrastructure-as-Code",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/infrastructure-as-code",
+      "version": "1.0.0",
+      "tags": [
+        "infrastructure",
+        "iac",
+        "terraform",
+        "cloudformation",
+        "aws",
+        "automation"
+      ],
+      "description": "Managing infrastructure through code with IaC tools, enabling reproducible and versionable deployments.",
+      "capabilities": [
+        "Terraform templates",
+        "Multi-environment setup",
+        "Modular components",
+        "Testing"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "CI/CD Pipeline Engineering",
+      "category": "infrastructure",
+      "path": "skills/infrastructure/cicd-pipelines",
+      "version": "1.0.0",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "github-actions",
+        "deployment",
+        "pipelines"
+      ],
+      "description": "Building automated, reliable continuous integration and deployment pipelines for software delivery.",
+      "capabilities": [
+        "Workflow design",
+        "Build automation",
+        "Deployment strategies",
+        "Testing integration"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "JavaScript Debugging",
+      "category": "debugging",
+      "path": "skills/debugging/javascript-debugging",
+      "version": "1.0.0",
+      "tags": ["javascript", "debugging", "devtools", "nodejs", "performance"],
+      "description": "Debugging JavaScript code using DevTools, Node.js debugger, and effective debugging techniques.",
+      "capabilities": [
+        "DevTools debugging",
+        "Breakpoints",
+        "Variable inspection",
+        "Performance profiling"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Python Debugging",
+      "category": "debugging",
+      "path": "skills/debugging/python-debugging",
+      "version": "1.0.0",
+      "tags": ["python", "debugging", "pdb", "performance", "profiling"],
+      "description": "Debugging Python code using pdb, third-party debuggers, and effective debugging techniques.",
+      "capabilities": [
+        "pdb debugging",
+        "IDE debuggers",
+        "Performance profiling",
+        "Memory analysis"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Unit Testing",
+      "category": "testing",
+      "path": "skills/testing/unit-testing",
+      "version": "1.0.0",
+      "tags": ["testing", "jest", "pytest", "unittest", "mocking"],
+      "description": "Writing comprehensive unit tests using frameworks like Jest, Pytest, and Vitest.",
+      "capabilities": [
+        "Jest/Pytest",
+        "Mocking",
+        "Test fixtures",
+        "Code coverage"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Integration Testing",
+      "category": "testing",
+      "path": "skills/testing/integration-testing",
+      "version": "1.0.0",
+      "tags": ["testing", "integration", "api", "database", "e2e"],
+      "description": "Writing integration tests that verify multiple components work together correctly.",
+      "capabilities": [
+        "API testing",
+        "Database tests",
+        "Test containers",
+        "E2E workflows"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Advanced Testing Strategies",
+      "category": "testing",
+      "path": "skills/testing/advanced-testing-strategies",
+      "version": "1.0.0",
+      "tags": ["testing", "quality", "tdd", "bdd", "comprehensive", "strategy"],
+      "description": "Designing comprehensive testing strategies combining multiple testing types for maximum coverage.",
+      "capabilities": [
+        "Testing pyramids",
+        "Property-based testing",
+        "Mutation testing",
+        "Chaos engineering"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Load Testing and Capacity Planning",
+      "category": "testing",
+      "path": "skills/testing/load-testing-capacity",
+      "version": "1.0.0",
+      "tags": [
+        "testing",
+        "performance",
+        "load-testing",
+        "capacity",
+        "scalability",
+        "infrastructure"
+      ],
+      "description": "Designing, executing, and analyzing load tests to understand system limits and plan capacity.",
+      "capabilities": [
+        "Load test design",
+        "Bottleneck identification",
+        "Capacity planning",
+        "Infrastructure optimization"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "React Development",
+      "category": "web-development",
+      "path": "skills/web-development/react-development",
+      "version": "2.0.0",
+      "tags": [
+        "react",
+        "javascript",
+        "hooks",
+        "state-management",
+        "frontend",
+        "performance",
+        "component-design"
+      ],
+      "description": "Building modern React applications with hooks, state management, performance optimization, and enterprise patterns.",
+      "capabilities": [
+        "Functional components",
+        "Hooks",
+        "Custom hooks",
+        "Performance optimization",
+        "Server components"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "CSS Styling and Layout",
+      "category": "web-development",
+      "path": "skills/web-development/css-styling",
+      "version": "1.0.0",
+      "tags": ["css", "styling", "responsive", "accessibility", "frontend"],
+      "description": "Creating responsive, accessible, and maintainable CSS with modern techniques.",
+      "capabilities": [
+        "Flexbox and Grid",
+        "Responsive design",
+        "Accessibility",
+        "CSS variables"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Advanced Frontend Patterns",
+      "category": "web-development",
+      "path": "skills/web-development/advanced-frontend-patterns",
+      "version": "1.0.0",
+      "tags": [
+        "frontend",
+        "React",
+        "patterns",
+        "state-management",
+        "real-time",
+        "performance"
+      ],
+      "description": "Building sophisticated frontend applications using advanced patterns and frameworks.",
+      "capabilities": [
+        "Complex state management",
+        "Server-driven UI",
+        "Real-time collaboration",
+        "Offline-first"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "API Design and REST/GraphQL",
+      "category": "web-development",
+      "path": "skills/web-development/api-design",
+      "version": "1.0.0",
+      "tags": ["api", "rest", "graphql", "grpc", "design", "documentation"],
+      "description": "Designing and implementing robust, scalable APIs with REST, GraphQL, and gRPC.",
+      "capabilities": [
+        "REST API design",
+        "GraphQL schemas",
+        "gRPC services",
+        "API documentation"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "LLM Prompting and Engineering",
+      "category": "ai-ml",
+      "path": "skills/ai-ml/llm-prompting",
+      "version": "2.0.0",
+      "tags": [
+        "llm",
+        "prompting",
+        "ai",
+        "engineering",
+        "optimization",
+        "testing"
+      ],
+      "description": "Writing effective prompts and prompt engineering for maximum model performance with evaluation and iteration.",
+      "capabilities": [
+        "Prompt design",
+        "Few-shot learning",
+        "Chain-of-thought",
+        "Prompt evaluation",
+        "Optimization"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Machine Learning Model Development",
+      "category": "ai-ml",
+      "path": "skills/ai-ml/ml-model-development",
+      "version": "1.0.0",
+      "tags": [
+        "machine-learning",
+        "scikit-learn",
+        "tensorflow",
+        "pytorch",
+        "data-science"
+      ],
+      "description": "Building, training, and evaluating machine learning models with scikit-learn, TensorFlow, and PyTorch.",
+      "capabilities": [
+        "Data preprocessing",
+        "Model training",
+        "Evaluation",
+        "Hyperparameter tuning"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Model Fine-Tuning and Adaptation",
+      "category": "ai-ml",
+      "path": "skills/ai-ml/retrieval-generation-fine-tuning",
+      "version": "1.0.0",
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "adaptation",
+        "lora",
+        "domain-specific",
+        "training"
+      ],
+      "description": "Adapting and fine-tuning language models for specific domains and use cases.",
+      "capabilities": [
+        "LoRA fine-tuning",
+        "Instruction tuning",
+        "Domain adaptation",
+        "Model merging"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Multimodal Systems",
+      "category": "ai-ml",
+      "path": "skills/ai-ml/multimodal-systems",
+      "version": "1.0.0",
+      "tags": [
+        "multimodal",
+        "vision",
+        "audio",
+        "video",
+        "image-generation",
+        "cross-modal"
+      ],
+      "description": "Building systems that work with multiple modalities (text, images, audio, video) for comprehensive AI understanding.",
+      "capabilities": [
+        "Vision models",
+        "Audio processing",
+        "Video understanding",
+        "Cross-modal retrieval"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Code Security Analysis",
+      "category": "security",
+      "path": "skills/security/code-security",
+      "version": "1.0.0",
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "owasp",
+        "cryptography",
+        "api-security"
+      ],
+      "description": "Identifying and remediating security vulnerabilities in code.",
+      "capabilities": [
+        "Vulnerability detection",
+        "OWASP Top 10",
+        "Secure coding",
+        "Cryptography"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Secure Architecture Design",
+      "category": "security",
+      "path": "skills/security/secure-architecture",
+      "version": "1.0.0",
+      "tags": [
+        "security",
+        "architecture",
+        "design",
+        "compliance",
+        "zero-trust",
+        "defense-in-depth"
+      ],
+      "description": "Designing systems with security built-in from the ground up using security principles and patterns.",
+      "capabilities": [
+        "Defense-in-depth",
+        "Zero-trust architecture",
+        "Threat modeling",
+        "Compliance frameworks"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Authentication and Authorization",
+      "category": "security",
+      "path": "skills/security/authentication-authorization",
+      "version": "1.0.0",
+      "tags": [
+        "security",
+        "authentication",
+        "authorization",
+        "oauth2",
+        "oidc",
+        "access-control"
+      ],
+      "description": "Implementing robust authentication and authorization systems that are both secure and user-friendly.",
+      "capabilities": ["OAuth2/OIDC", "JWT tokens", "MFA", "RBAC/ABAC", "SSO"],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "API Documentation",
+      "category": "documentation",
+      "path": "skills/documentation/api-documentation",
+      "version": "1.0.0",
+      "tags": ["documentation", "api", "openapi", "swagger", "specs"],
+      "description": "Creating clear, comprehensive API documentation with examples and interactive tools.",
+      "capabilities": [
+        "OpenAPI specs",
+        "Schema documentation",
+        "Code examples",
+        "Interactive docs"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "System Design and Architecture",
+      "category": "architecture",
+      "path": "skills/architecture/system-design",
+      "version": "1.0.0",
+      "tags": [
+        "architecture",
+        "system-design",
+        "distributed-systems",
+        "scalability"
+      ],
+      "description": "Designing scalable, maintainable systems and architectural patterns.",
+      "capabilities": [
+        "Distributed systems",
+        "Database design",
+        "Scalability",
+        "Design patterns"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Database Design and Optimization",
+      "category": "database-design",
+      "path": "skills/database-design/database-design-optimization",
+      "version": "1.0.0",
+      "tags": [
+        "database",
+        "sql",
+        "optimization",
+        "schema-design",
+        "performance",
+        "scaling"
+      ],
+      "description": "Designing scalable, efficient database systems with proper modeling, indexing, and query optimization.",
+      "capabilities": [
+        "Schema design",
+        "Indexing strategies",
+        "Query optimization",
+        "Partitioning",
+        "Caching"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Git Workflow and Collaboration",
+      "category": "git-workflow",
+      "path": "skills/git-workflow/git-collaboration",
+      "version": "1.0.0",
+      "tags": ["git", "workflow", "collaboration", "version-control", "devops"],
+      "description": "Managing Git repositories, branching strategies, and collaborative workflows.",
+      "capabilities": [
+        "Branching strategies",
+        "Code reviews",
+        "Release management",
+        "Conflict resolution"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Error Handling and Resilience",
+      "category": "error-handling",
+      "path": "skills/error-handling/resilience-patterns",
+      "version": "1.0.0",
+      "tags": [
+        "resilience",
+        "error-handling",
+        "fault-tolerance",
+        "reliability",
+        "recovery",
+        "distributed"
+      ],
+      "description": "Building fault-tolerant systems with comprehensive error handling, recovery strategies, and graceful degradation.",
+      "capabilities": [
+        "Retry strategies",
+        "Circuit breakers",
+        "Bulkhead patterns",
+        "Graceful degradation"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Performance Optimization Engineering",
+      "category": "performance-optimization",
+      "path": "skills/performance-optimization/performance-engineering",
+      "version": "1.0.0",
+      "tags": [
+        "performance",
+        "optimization",
+        "profiling",
+        "scalability",
+        "efficiency",
+        "monitoring"
+      ],
+      "description": "Identifying bottlenecks and systematically optimizing systems for speed, throughput, and resource efficiency.",
+      "capabilities": [
+        "Profiling",
+        "Caching strategies",
+        "Query optimization",
+        "Async I/O",
+        "Load testing"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Observability and Monitoring",
+      "category": "observability",
+      "path": "skills/observability/monitoring-and-observability",
+      "version": "1.0.0",
+      "tags": [
+        "observability",
+        "monitoring",
+        "logging",
+        "tracing",
+        "metrics",
+        "debugging"
+      ],
+      "description": "Building comprehensive monitoring, logging, and tracing systems for production applications and agent systems.",
+      "capabilities": [
+        "Metrics collection",
+        "Structured logging",
+        "Distributed tracing",
+        "Alert rules",
+        "Dashboards"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Multi-Agent Orchestration",
+      "category": "agent-orchestration",
+      "path": "skills/agent-orchestration/multi-agent-orchestration",
+      "version": "1.0.0",
+      "tags": [
+        "agents",
+        "orchestration",
+        "multi-agent",
+        "coordination",
+        "message-passing",
+        "distributed"
+      ],
+      "description": "Coordinating multiple AI agents to work together on complex tasks through message passing, state management, and goal decomposition.",
+      "capabilities": [
+        "Agent communication",
+        "State synchronization",
+        "Parallel execution",
+        "Failure handling"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Agent Patterns and Architectures",
+      "category": "agent-patterns",
+      "path": "skills/agent-patterns/agent-design-patterns",
+      "version": "1.0.0",
+      "tags": [
+        "agents",
+        "patterns",
+        "reasoning",
+        "tool-use",
+        "planning",
+        "autonomous"
+      ],
+      "description": "Building scalable, maintainable agent systems using proven design patterns and best practices.",
+      "capabilities": [
+        "ReAct pattern",
+        "Tool-using agents",
+        "Planning agents",
+        "Reflection mechanisms",
+        "Memory systems"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Complex Workflow Composition",
+      "category": "workflow-composition",
+      "path": "skills/workflow-composition/workflow-orchestration",
+      "version": "1.0.0",
+      "tags": [
+        "workflows",
+        "orchestration",
+        "automation",
+        "pipelines",
+        "distributed-systems",
+        "etl"
+      ],
+      "description": "Building, orchestrating, and managing complex multi-step workflows with error handling, branching, and dynamic execution.",
+      "capabilities": [
+        "Conditional workflows",
+        "Parallel execution",
+        "Stateful engines",
+        "Rollback logic"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Custom Tool Integration",
+      "category": "tool-integration",
+      "path": "skills/tool-integration/custom-tool-creation",
+      "version": "1.0.0",
+      "tags": [
+        "tools",
+        "integration",
+        "api",
+        "function-calling",
+        "tool-use",
+        "composability"
+      ],
+      "description": "Creating, integrating, and managing custom tools and APIs for agents to use autonomously.",
+      "capabilities": [
+        "Tool interface design",
+        "Function calling",
+        "REST API wrappers",
+        "Tool composition"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "RAG (Retrieval-Augmented Generation)",
+      "category": "rag-knowledge",
+      "path": "skills/rag-knowledge/rag-systems",
+      "version": "1.0.0",
+      "tags": [
+        "rag",
+        "retrieval",
+        "knowledge-management",
+        "embedding",
+        "semantic-search",
+        "grounding"
+      ],
+      "description": "Building knowledge-grounded AI systems that retrieve and synthesize information from external sources.",
+      "capabilities": [
+        "RAG architectures",
+        "Document indexing",
+        "Semantic search",
+        "Knowledge graphs",
+        "Hallucination mitigation"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Advanced Prompt Optimization",
+      "category": "prompt-optimization",
+      "path": "skills/prompt-optimization/prompt-engineering-advanced",
+      "version": "1.0.0",
+      "tags": [
+        "prompting",
+        "optimization",
+        "llm",
+        "testing",
+        "iteration",
+        "evaluation"
+      ],
+      "description": "Iteratively refining prompts for maximum model performance using testing, evaluation, and systematic optimization.",
+      "capabilities": [
+        "Evaluation metrics",
+        "A/B testing",
+        "Prompt templates",
+        "Few-shot optimization"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    },
+    {
+      "name": "Knowledge Synthesis and Research",
+      "category": "research",
+      "path": "skills/research/knowledge-synthesis",
+      "version": "1.0.0",
+      "tags": [
+        "research",
+        "synthesis",
+        "knowledge",
+        "fact-checking",
+        "multi-source",
+        "analysis"
+      ],
+      "description": "Synthesizing information from multiple sources into coherent, actionable insights through agent-driven research.",
+      "capabilities": [
+        "Multi-source research",
+        "Fact-checking",
+        "Knowledge synthesis",
+        "Contradiction detection"
+      ],
+      "dependency": null,
+      "enabled": true,
+      "source": "internal"
+    }
+  ],
+  "categories": [
+    {
+      "name": "code-generation",
+      "displayName": "Code Generation",
+      "skillCount": 4
+    },
+    {
+      "name": "code-analysis",
+      "displayName": "Code Analysis",
+      "skillCount": 3
+    },
+    {
+      "name": "data-analysis",
+      "displayName": "Data Analysis",
+      "skillCount": 2
+    },
+    { "name": "devops", "displayName": "DevOps", "skillCount": 2 },
+    {
+      "name": "infrastructure",
+      "displayName": "Infrastructure",
+      "skillCount": 2
+    },
+    { "name": "debugging", "displayName": "Debugging", "skillCount": 2 },
+    { "name": "testing", "displayName": "Testing", "skillCount": 4 },
+    {
+      "name": "web-development",
+      "displayName": "Web Development",
+      "skillCount": 4
+    },
+    { "name": "ai-ml", "displayName": "AI/ML", "skillCount": 4 },
+    { "name": "security", "displayName": "Security", "skillCount": 3 },
+    {
+      "name": "documentation",
+      "displayName": "Documentation",
+      "skillCount": 1
+    },
+    { "name": "architecture", "displayName": "Architecture", "skillCount": 1 },
+    {
+      "name": "database-design",
+      "displayName": "Database Design",
+      "skillCount": 1
+    },
+    { "name": "git-workflow", "displayName": "Git Workflow", "skillCount": 1 },
+    {
+      "name": "error-handling",
+      "displayName": "Error Handling",
+      "skillCount": 1
+    },
+    {
+      "name": "performance-optimization",
+      "displayName": "Performance",
+      "skillCount": 1
+    },
+    {
+      "name": "observability",
+      "displayName": "Observability",
+      "skillCount": 1
+    },
+    {
+      "name": "agent-orchestration",
+      "displayName": "Agent Orchestration",
+      "skillCount": 1
+    },
+    {
+      "name": "agent-patterns",
+      "displayName": "Agent Patterns",
+      "skillCount": 1
+    },
+    {
+      "name": "workflow-composition",
+      "displayName": "Workflow Composition",
+      "skillCount": 1
+    },
+    {
+      "name": "tool-integration",
+      "displayName": "Tool Integration",
+      "skillCount": 1
+    },
+    {
+      "name": "rag-knowledge",
+      "displayName": "RAG & Knowledge",
+      "skillCount": 1
+    },
+    {
+      "name": "prompt-optimization",
+      "displayName": "Prompt Optimization",
+      "skillCount": 1
+    },
+    { "name": "research", "displayName": "Research", "skillCount": 1 }
+  ],
+  "metadata": {
+    "description": "Comprehensive LLM Agent and Full-Stack Development Skills Library - Agentic patterns, orchestration, tool integration, RAG, and production systems.",
+    "license": "MIT",
+    "maintainer": "Leeway Industries",
+    "repository": "local",
+    "updateFrequency": "monthly",
+    "supportedLLMs": [
+      "Claude",
+      "GPT",
+      "Copilot",
+      "Custom LLMs",
+      "Agent Frameworks"
+    ],
+    "governance": {
+      "framework": "Leeway Standards",
+      "version": "1.0.0",
+      "complianceScore": 85,
+      "monitoringEnabled": true,
+      "requiredHeaders": true,
+      "policies": [
+        "NO_SECRETS_IN_CODE",
+        "HEADERS_REQUIRED",
+        "TAGS_REQUIRED",
+        "NO_CIRCULAR_DEPS"
+      ],
+      "agents": [
+        "ComplianceMonitor",
+        "HeaderInjector",
+        "SkillValidator",
+        "AutonomyAuditor"
+      ],
+      "lastAudit": "2026-03-15T12:00:00Z"
+    },
+    "tags": [
+      "agents",
+      "orchestration",
+      "full-stack",
+      "agentic",
+      "production",
+      "llm",
+      "ml-ops",
+      "leeway-compliant"
+    ]
+  }
+}

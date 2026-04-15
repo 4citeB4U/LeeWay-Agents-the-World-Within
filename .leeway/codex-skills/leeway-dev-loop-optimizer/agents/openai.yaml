@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dev Loop Optimizer"
+  short_description: "Dev Loop Optimizer guidance"
+  default_prompt: "Use $leeway-dev-loop-optimizer to help with measuring and profiling dev loop cycles and bottlenecks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "TypeScript Code Generation"
+  short_description: "TypeScript Code Generation guidance"
+  default_prompt: "Use $leeway-typescript-codegen to help with you need to generate typescript/javascript from requirements."
+
+policy:
+  allow_implicit_invocation: true

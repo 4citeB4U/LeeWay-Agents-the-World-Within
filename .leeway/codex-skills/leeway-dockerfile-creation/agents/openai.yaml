@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dockerfile Creation"
+  short_description: "Dockerfile Creation guidance"
+  default_prompt: "Use $leeway-dockerfile-creation to help with you need to containerize an application."
+
+policy:
+  allow_implicit_invocation: true

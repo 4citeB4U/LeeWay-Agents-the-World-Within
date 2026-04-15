@@ -1,0 +1,7 @@
+interface:
+  display_name: "Complex Workflow Composition"
+  short_description: "Complex Workflow Composition guidance"
+  default_prompt: "Use $leeway-workflow-orchestration to help with building complex business processes."
+
+policy:
+  allow_implicit_invocation: true

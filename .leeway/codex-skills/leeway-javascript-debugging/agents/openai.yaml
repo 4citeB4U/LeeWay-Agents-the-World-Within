@@ -1,0 +1,7 @@
+interface:
+  display_name: "JavaScript/Node.js Debugging"
+  short_description: "JavaScript/Node.js Debugging guidance"
+  default_prompt: "Use $leeway-javascript-debugging to help with code isn't behaving as expected."
+
+policy:
+  allow_implicit_invocation: true

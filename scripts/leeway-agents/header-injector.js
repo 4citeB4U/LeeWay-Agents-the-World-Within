@@ -120,7 +120,14 @@ export class HeaderInjectorAgent {
     const dryRun = context.dryRun || false;
 
     try {
-      const skillsDir = path.join(this.rootDir, "skills");
+      let skillsDir = path.join(this.rootDir, "skills");
+      
+      try {
+        await fs.access(skillsDir);
+      } catch {
+        skillsDir = path.join(this.rootDir, "agents", "skills");
+      }
+
       const results = {
         processed: [],
         skipped: [],

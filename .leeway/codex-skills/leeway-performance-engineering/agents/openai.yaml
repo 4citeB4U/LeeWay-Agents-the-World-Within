@@ -1,0 +1,7 @@
+interface:
+  display_name: "Performance Optimization Engineering"
+  short_description: "Performance Optimization Engineering guidance"
+  default_prompt: "Use $leeway-performance-engineering to help with application performance is degrading."
+
+policy:
+  allow_implicit_invocation: true

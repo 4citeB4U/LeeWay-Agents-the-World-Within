@@ -1,0 +1,7 @@
+interface:
+  display_name: "Secure Architecture Design"
+  short_description: "Secure Architecture Design guidance"
+  default_prompt: "Use $leeway-secure-architecture to help with building security-critical systems."
+
+policy:
+  allow_implicit_invocation: true

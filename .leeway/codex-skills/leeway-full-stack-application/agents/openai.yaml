@@ -1,0 +1,7 @@
+interface:
+  display_name: "Full-Stack Application Delivery"
+  short_description: "Full-Stack Application Delivery guidance"
+  default_prompt: "Use $leeway-full-stack-application to help with building new applications from scratch."
+
+policy:
+  allow_implicit_invocation: true

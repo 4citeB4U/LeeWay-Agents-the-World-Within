@@ -1,0 +1,7 @@
+interface:
+  display_name: "RAG (Retrieval-Augmented Generation)"
+  short_description: "RAG (Retrieval-Augmented Generation) guidance"
+  default_prompt: "Use $leeway-rag-systems to help with building ai systems grounded in your data."
+
+policy:
+  allow_implicit_invocation: true

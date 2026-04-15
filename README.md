@@ -513,9 +513,24 @@ To add new skills or categories:
 - Skills can be disabled via config without deletion
 - Symlinks are supported for shared skills
 
+## 🏛️ The Society of Agents (7 Sovereign Families)
+
+The World of Agents is organized into **Sovereign Families**, each governed by a Lead Prime. Together, they form the Execution Spine.
+
+| Family | Role | Lead Essence |
+|--------|------|--------------|
+| **Governance** | Align, Assess, Audit | Lee Prime |
+| **Discovery** | Research, Sitemap, Docs | Atlas Vector |
+| **Integrity** | Syntax, Modules, Refactor | Nova Forge |
+| **Security** | Secrets, Policies, Permissions | Shield Aegis |
+| **Orchestration** | Router, Memory, Doctor | Lee / Sage |
+| **Standards** | Headers, Regions, Tags | The Enlightened |
+| **MCP** | Runtime, Process, Manifest | Nexus Prime |
+
 ---
 
-**Last Updated**: 2026-03-15  
-**Skills Count**: 19 core skills  
-**Categories**: 13  
-**Version**: 1.0.0
+**Last Updated**: 2026-04-12  
+**Skills Count**: 52 production-ready skills  
+**Agent Count**: 42 specialized agentic units  
+**Families**: 7 Sovereign Families  
+**Version**: 2.0.0 (Sovereign)

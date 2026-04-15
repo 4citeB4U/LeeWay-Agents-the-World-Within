@@ -1,0 +1,7 @@
+interface:
+  display_name: "Database Design and Optimization"
+  short_description: "Database Design and Optimization guidance"
+  default_prompt: "Use $leeway-database-design-optimization to help with designing new database systems."
+
+policy:
+  allow_implicit_invocation: true

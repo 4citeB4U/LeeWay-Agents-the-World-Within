@@ -38,29 +38,37 @@ import path from "path";
  */
 
 const LEEWAY_CONFIG_PATH = ".leeway/config.json";
-const SKILLS_DIR = "skills";
 
 async function main() {
   console.log("\n╔═════════════════════════════════════════════════════╗");
   console.log("║   🔒 LEEWAY STANDARDS COMPLIANCE BOOTSTRAP         ║");
   console.log("╚═════════════════════════════════════════════════════╝\n");
 
+  let SKILLS_DIR = "skills";
+  
   try {
-    // 1. Check Leeway configuration exists
+    // 1. Check skills directory
+     try {
+       await fs.access(SKILLS_DIR);
+     } catch {
+       SKILLS_DIR = "agents/skills";
+     }
+
+    // 2. Check Leeway configuration exists
     console.log("✓ Checking Leeway configuration...");
     const config = await loadConfig(LEEWAY_CONFIG_PATH);
     console.log(`  → Version: ${config.version}`);
     console.log(`  → Project: ${config.project.name}`);
     console.log(`  → Minimum Score: ${config.compliance.minimumScore}`);
 
-    // 2. Validate skills directory
-    console.log("\n✓ Scanning skills directory...");
+    // 3. Validate skills directory
+    console.log(`\n✓ Scanning ${SKILLS_DIR} directory...`);
     const skillCount = await countSkills(SKILLS_DIR);
     console.log(
       `  → Found ${skillCount.total} skills across ${skillCount.categories} categories`,
     );
 
-    // 3. Check for compliance issues
+    // 4. Check for compliance issues
     console.log("\n✓ Pre-flight compliance check...");
     const issues = await quickValidation(SKILLS_DIR);
 
@@ -77,7 +85,7 @@ async function main() {
       );
     }
 
-    // 4. Initialize monitoring
+    // 5. Initialize monitoring
     console.log("\n✓ Starting compliance monitoring...");
     console.log(
       `  → Monitor interval: ${config.agents["compliance-monitor"].interval / 1000}s`,
@@ -89,7 +97,7 @@ async function main() {
       `  → Enforced policies: ${config.compliance.enforcedPolicies.join(", ")}`,
     );
 
-    // 5. Status summary
+    // 6. Status summary
     console.log("\n╔═════════════════════════════════════════════════════╗");
     console.log("║                LEEWAY STATUS                        ║");
     console.log("├─────────────────────────────────────────────────────┤");
@@ -112,7 +120,7 @@ async function main() {
 
     console.log("╚═════════════════════════════════════════════════════╝\n");
 
-    // 6. Next steps
+    // 7. Next steps
     console.log("📌 Next Steps:");
     console.log(
       "  1. Run compliance audit: node scripts/leeway-agents/compliance-monitor.js",
@@ -158,7 +166,7 @@ async function countSkills(dir) {
       }
     }
   } catch (error) {
-    throw new Error(`Cannot scan skills directory: ${error.message}`);
+    throw new Error(`Cannot scan skills directory at ${dir}: ${error.message}`);
   }
 
   return { total, categories };

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Knowledge Synthesis and Research"
+  short_description: "Knowledge Synthesis and Research guidance"
+  default_prompt: "Use $leeway-knowledge-synthesis to help with building research-focused agents."
+
+policy:
+  allow_implicit_invocation: true

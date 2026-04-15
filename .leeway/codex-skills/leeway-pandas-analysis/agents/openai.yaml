@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pandas Data Analysis"
+  short_description: "Pandas Data Analysis guidance"
+  default_prompt: "Use $leeway-pandas-analysis to help with you need to analyze data with pandas."
+
+policy:
+  allow_implicit_invocation: true

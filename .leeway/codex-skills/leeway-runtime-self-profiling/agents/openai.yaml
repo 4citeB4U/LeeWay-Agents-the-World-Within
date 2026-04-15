@@ -1,0 +1,7 @@
+interface:
+  display_name: "Runtime Self-Profiling and Optimization"
+  short_description: "Runtime Self-Profiling and Optimization guidance"
+  default_prompt: "Use $leeway-runtime-self-profiling to help with collecting performance metrics (tokens, tool calls, errors, timing)."
+
+policy:
+  allow_implicit_invocation: true

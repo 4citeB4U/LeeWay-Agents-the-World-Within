@@ -1,0 +1,7 @@
+interface:
+  display_name: "Python Debugging"
+  short_description: "Python Debugging guidance"
+  default_prompt: "Use $leeway-python-debugging to help with python code has unexpected behavior."
+
+policy:
+  allow_implicit_invocation: true

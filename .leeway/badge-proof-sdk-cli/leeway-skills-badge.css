@@ -1,0 +1,63 @@
+:root {
+  --leeway-badge-bg: linear-gradient(135deg, #07111b 0%, #0f2538 55%, #133451 100%);
+  --leeway-badge-border: rgba(13, 255, 148, 0.35);
+  --leeway-badge-text: #f5fbff;
+  --leeway-badge-muted: #9dc4d1;
+  --leeway-badge-highlight: #39ff14;
+}
+
+.leeway-skills-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 280px;
+  max-width: 560px;
+  padding: 12px 16px;
+  border: 1px solid var(--leeway-badge-border);
+  border-radius: 18px;
+  background: var(--leeway-badge-bg);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  color: var(--leeway-badge-text);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.leeway-skills-badge__image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 14px;
+  flex: 0 0 auto;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.leeway-skills-badge__content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.leeway-skills-badge__title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.leeway-skills-badge__meta,
+.leeway-skills-badge__proof,
+.leeway-skills-badge__warning {
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.leeway-skills-badge__meta {
+  color: var(--leeway-badge-muted);
+}
+
+.leeway-skills-badge__proof {
+  color: var(--leeway-badge-highlight);
+}
+
+.leeway-skills-badge__warning {
+  color: #ffdca8;
+}

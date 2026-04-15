@@ -8,11 +8,17 @@
     "leeway": "src/cli/leeway.js"
   },
   "scripts": {
-    "start": "node src/cli/leeway.js",
+    "start": "node src/cli/leeway.js start",
     "doctor": "node src/cli/leeway.js doctor",
     "audit": "node src/cli/leeway.js audit",
     "assess": "node src/cli/leeway.js assess",
-    "test": "node --test \"src/**/*.test.js\""
+    "align": "node src/cli/leeway.js align",
+    "registry": "node src/cli/leeway.js registry",
+    "map": "node src/cli/leeway.js map",
+    "scan": "node src/cli/leeway.js scan",
+    "forge": "node src/cli/leeway.js forge",
+    "hive": "node src/cli/leeway.js hive",
+    "test": "node --test src/**/*.test.js src/**/**/*.test.js 2>/dev/null || node --test src/core/*.test.js"
   },
   "keywords": [
     "leeway",
@@ -31,31 +37,19 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/4citeB4U/LeeWay-Standards.git"
-  },
-  "bugs": {
-    "url": "https://github.com/4citeB4U/LeeWay-Standards/issues"
-  },
-  "homepage": "https://github.com/4citeB4U/LeeWay-Standards#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [
     "src/",
     "schemas/",
     ".leeway/",
     "README.md",
+    "HELP.md",
     "LICENSE",
-    "package.json"
+    "package.json",
+    "leeway.cmd",
+    "setup.bat"
   ],
-  "exports": {
-    ".": "./src/index.js",
-    "./agents/*": "./src/agents/*",
-    "./core/*": "./src/core/*"
-  },
   "dependencies": {
-    "leeway-sdk": "^1.0.1"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
   }
 }

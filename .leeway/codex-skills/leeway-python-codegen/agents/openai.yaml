@@ -1,0 +1,7 @@
+interface:
+  display_name: "Python Code Generation"
+  short_description: "Python Code Generation guidance"
+  default_prompt: "Use $leeway-python-codegen to help with you need to generate python code from specifications."
+
+policy:
+  allow_implicit_invocation: true

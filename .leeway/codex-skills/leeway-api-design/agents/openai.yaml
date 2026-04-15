@@ -1,0 +1,7 @@
+interface:
+  display_name: "API Design and REST/GraphQL"
+  short_description: "API Design and REST/GraphQL guidance"
+  default_prompt: "Use $leeway-api-design to help with designing new api services."
+
+policy:
+  allow_implicit_invocation: true

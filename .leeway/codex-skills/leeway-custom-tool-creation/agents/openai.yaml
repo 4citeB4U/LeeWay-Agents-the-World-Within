@@ -1,0 +1,7 @@
+interface:
+  display_name: "Custom Tool Integration"
+  short_description: "Custom Tool Integration guidance"
+  default_prompt: "Use $leeway-custom-tool-creation to help with extending agents with custom capabilities."
+
+policy:
+  allow_implicit_invocation: true

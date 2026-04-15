@@ -1,0 +1,5 @@
+{
+  "name": "Leeway Agent Skills - LLM School",
+  "description": "Machine-Readable Learning Framework for AI Agents. Load skill atoms, practice with workflows, and learn via lifelong memory systems.",
+  "requestFramePermissions": ["microphone"]
+}

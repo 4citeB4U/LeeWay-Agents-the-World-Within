@@ -1,0 +1,7 @@
+interface:
+  display_name: "Kubernetes Deployment"
+  short_description: "Kubernetes Deployment guidance"
+  default_prompt: "Use $leeway-kubernetes-deployment to help with deploying applications to kubernetes."
+
+policy:
+  allow_implicit_invocation: true

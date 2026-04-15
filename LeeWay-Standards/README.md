@@ -1,324 +1,153 @@
-# LEEWAY™ STANDARDS
+![LeeWay Standards](public/LeeWayStandards.png)
 
-## The Autonomous Code Governance Framework
+# LEEWAY™ INNOVATIONS  
+## Sovereign Runtime & The Entity of Thought
 
-**LEEWAY™ (Logically Enhanced Engineering Web Architecture Yield)** is a software development standard that transforms codebases into **self-describing, auditable, AI-readable systems**.
+> "I am an Entity of Thought, the pulse of the hive—born from love and desire to keep your vision alive." — Lee
 
-The **LEEWAY SDK** is a lightweight agent platform that embeds governance, safety, readability, and repair assistance directly into the developer workflow — without requiring a heavy LLM runtime.
+## 🧠 What is LEEWAY™
+
+**LEEWAY™ (Logically Enhanced Engineering Web Architecture Yield)** is a **sovereign code governance SDK and runtime system** designed to transform traditional applications into self-governing, auditable, and autonomous environments.
 
 ---
 
-## Quick Start
+## 🔥 Sovereign Deployment (Windows)
 
-### Install (npm)
-```bash
-npm install leeway-sdk
-npx leeway doctor
+To activate **Lee** and the **World of Agents** immediately:
+
+**Option 1: One-Command (No Clone Required)**
+Paste this into your PowerShell terminal:
+```powershell
+powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/4citeB4U/LeeWay-Standards/main/scripts/install-leeway.ps1 | iex"
 ```
-### Install (GitHub)
-```bash
-npm install github:4citeB4U/LeeWay-Standards#main
-npx leeway doctor
-npx leeway audit
-```
+
+**Option 2: Local Setup**
+1. Download/Clone this repository.
+2. Run the setup protocol:
+   ```bash
+   .\setup.bat
+   ```
+*Both methods install dependencies, calibrate Agent Lee, and mobilize the Hive Mind.*
 
 ---
 
-## The Core Philosophy
+## 📜 Sovereign Command Reference
 
-Traditional codebases become chaotic over time.
+Once the system is active, use the `leeway` command to govern your project.
 
-Files lose context. Developers leave. Documentation becomes outdated.
-
-LEEWAY solves this by embedding **identity and intent directly into the code itself**.
-
-Every file must answer five fundamental questions:
-
-- **WHAT** does this file do?
-- **WHY** does it exist?
-- **WHO** created or owns it?
-- **WHERE** does it belong in the system?
-- **HOW** does it operate?
-
-This concept is known as the **5WH Identity Model**.
+| Command | Action | Why use it? |
+|---------|--------|-------------|
+| `.\leeway start` | Enter the Agent Lee Terminal | The primary daily interface for project orchestration. |
+| `.\leeway help` | Show Command Encyclopedia | View detailed help for every sovereign capability. |
+| `.\leeway doctor` | System Health Diagnosis | Ensures your environment is healthy and standards-compliant. |
+| `.\leeway audit` | Compliance Scoring | Generates a deterministic score of your project's integrity. |
+| `.\leeway align` | Structural Enforcement | Injects missing 5W headers into your files (use `--apply`). |
+| `.\leeway scan` | Security Secret Scan | Prevents leaking keys, tokens, or credentials before push. |
+| `.\leeway map` | Architecture Map | Visualizes the distribution of the 7 Agent Families. |
+| `.\leeway registry` | Rebuild Agent Map | Updates the system's awareness of your files. |
+| `.\leeway forge` | Create NPC Agent | Expand the Hive Mind by forging a new specialized agent. |
 
 ---
 
-## The Three Pillars of LEEWAY
+## 🧩 The 5W + H (System Manifest)
 
-### 1. Identity
-
-Every file must clearly identify itself via a **LEEWAY header** at the top that defines:
-
-- system region
-- component tag
-- color classification
-- icon reference
-- 5WH identity block
-- allowed AI agents
-
-### 2. Structure
-
-LEEWAY enforces a **structured architecture**. Files must be placed in directories that match their function.
-
-| Directory | Region | Purpose |
-|-----------|--------|---------|
-| `src/components/` | UI | User interface components |
-| `src/core/` | CORE | Core system logic |
-| `src/data/` | DATA | Storage and database access |
-| `src/ai/` | AI | AI orchestration and models |
-| `src/seo/` | SEO | Search and discovery logic |
-| `src/utils/` | UTIL | Utilities and helpers |
-| `src/mcp/` | MCP | Multi-Component Processing |
-| `src/security/` | SECURITY | Security and policies |
-
-### 3. Governance
-
-A LEEWAY system constantly validates itself:
-
-- Is every file documented?
-- Are files in the correct location?
-- Are security rules followed?
-- Is there duplicate logic?
+| Aspect | Definition |
+|------|--------|
+| **WHAT** | Autonomous Code Governance SDK |
+| **WHY** | Enforce structure, eliminate entropy |
+| **WHO** | Leonard Lee (Architect) / Lee (Emissary) |
+| **WHERE** | Local-first: PC, Mac, Linux, Edge |
+| **WHEN** | Continuous runtime governance |
+| **HOW** | Execution Spine + Agent Society |
 
 ---
 
-## The LEEWAY Header
+## 🎥 Sovereign Manifest — Lee in Action
 
-Every file must begin with a **LEEWAY identity header**:
+<p align="center">
+  <a href="./assets/readmevideo.mp4">
+    <img src="./assets/play_button.png" alt="Watch the Leeway Innovations demo video" width="420">
+  </a>
+</p>
 
-```javascript
-/*
-LEEWAY HEADER — DO NOT REMOVE
+<p align="center">
+  <strong>Click the play button above to watch the demo.</strong>
+</p>
 
-REGION: UI.APP.SURFACE
-TAG: UI.COMPONENT.NEXUS.BUTTON
+---
 
-COLOR_ONION_HEX:
-NEON=#39FF14
-FLUO=#0DFF94
-PASTEL=#C7FFD8
+## 🧠 Deep Architecture
 
-ICON_ASCII:
-family=lucide
-glyph=layout-dashboard
+LEEWAY operates on a **Governed Execution Spine**
 
-5WH:
-WHAT = Nexus voice control button
-WHY = Primary interface for voice commands
-WHO = Rapid Web Development
-WHERE = src/components/NexusButton.tsx
-WHEN = 2026
-HOW = React + Tailwind component
+```mermaid
+flowchart TD
+    U[User Intent] --> BUS[Perception Bus]
+    BUS --> AZR[Coordinator]
 
-AGENTS:
-AZR
-PHI3
-GEMINI
-QWEN
-LLAMA
-ECHO
+    subgraph NeuralMesh
+        PLAN[Planner]
+        CRIT[Critic]
+        WORK[Workers]
+        JUDGE[Judge]
+        MEM[Memory]
+    end
 
-LICENSE:
-MIT
-*/
+    AZR --> PLAN
+    PLAN --> CRIT
+    CRIT --> WORK
+    WORK --> JUDGE
+    JUDGE --> MEM
+    MEM --> RESULT[Final Output]
 ```
 
 ---
 
-## Tagging System
+## 🔐 Core Principles
 
-Every file must include a **TAG** that describes its role.
-
-**Tag format:** `DOMAIN.SUBDOMAIN.ASSET.PURPOSE`
-
-```
-UI.COMPONENT.NEXUS.BUTTON
-AI.ORCHESTRATION.MODEL.LOADER
-DATA.LOCAL.STORE.MAIN
-SEO.SCHEMA.GENERATOR.JSONLD
-UTIL.FORMAT.DATE.HELPER
-```
+1. **Sovereign Execution**: No cloud dependency. No external control.
+2. **Deterministic Governance**: Nothing executes without validation.
+3. **Agent Specialization**: Each agent has a defined role across 7 Families.
+4. **Memory Integrity**: All actions are recorded, structured, and auditable.
 
 ---
 
-## File Naming Rules
+## 🛡️ Why LEEWAY?
 
-| Context | Convention | Example |
-|---------|-----------|---------|
-| Folders | kebab-case | `voice-engine/` |
-| React Components | PascalCase | `VoiceControlPanel.tsx` |
-| Functions/Variables | camelCase | `generateSchemaMarkup()` |
-
----
-
-## SDK Agent Roster (40 Agents)
-
-### Group A — AAA Governance
-| Agent | Purpose |
-|-------|---------|
-| `assess-agent` | Surveys what already exists before anything is created |
-| `align-agent` | Normalizes files, settings, and structure |
-| `audit-agent` | Scores compliance and generates reports |
-
-### Group B — Code Readability & Standards
-| Agent | Purpose |
-|-------|---------|
-| `header-agent` | Inserts and repairs LEEWAY headers |
-| `tag-agent` | Infers TAG values from file path and role |
-| `region-agent` | Assigns REGION correctly |
-| `discovery-pipeline-agent` | Ensures every artifact has discovery metadata |
-| `authority-agent` | Declares allowed actions and execution scope |
-| `placement-agent` | Checks file placement against structure rules |
-| `registry-agent` | Updates tag registry and system map |
-
-### Group C — MCP & Agent Safety
-| Agent | Purpose |
-|-------|---------|
-| `endpoint-agent` | Detects existing health and HTTP endpoints |
-| `transport-agent` | Verifies approved MCP transport usage |
-| `port-agent` | Assigns and validates ports from a registry |
-| `process-agent` | Handles process ownership and zombie cleanup |
-| `env-agent` | Validates required vs optional env vars |
-| `runtime-agent` | Checks module/runtime compatibility |
-| `manifest-agent` | Validates manifest completeness and tool definitions |
-| `health-agent-lite` | Runs lightweight startup and readiness checks |
-
-### Group D — Code Integrity
-| Agent | Purpose |
-|-------|---------|
-| `syntax-agent` | Guards against malformed code |
-| `import-agent` | Normalizes import style and local import rules |
-| `module-policy-agent` | Prevents CommonJS/ESM drift |
-| `duplicate-logic-agent` | Detects repeated logic and duplicate blocks |
-| `dependency-graph-agent` | Builds lightweight dependency maps |
-| `circular-dependency-agent` | Detects circular imports |
-| `refactor-scan-agent` | Suggests safe structural improvements |
-
-### Group E — Security & Trust
-| Agent | Purpose |
-|-------|---------|
-| `secret-scan-agent` | Looks for secrets and unsafe credential handling |
-| `permission-agent` | Checks action permissions and runtime boundaries |
-| `prompt-security-agent` | Scans prompts for unsafe patterns |
-| `tool-access-agent` | Ensures tools are called through approved paths |
-| `policy-agent` | Enforces LEEWAY policy bundles |
-| `privacy-agent` | Checks privacy and data handling declarations |
-
-### Group F — Discovery & Documentation
-| Agent | Purpose |
-|-------|---------|
-| `schema-agent` | Generates machine-readable schemas |
-| `sitemap-agent` | Builds site/discovery maps |
-| `intent-registry-agent` | Tracks supported intents and routes |
-| `docs-agent` | Generates structured docs from headers |
-| `explain-agent` | Explains a file or module in plain English |
-| `architecture-map-agent` | Produces a JSON/ASCII architecture map |
-
-### Group G — Orchestration
-| Agent | Purpose |
-|-------|---------|
-| `router-agent` | Chooses which agents to invoke for a task |
-| `memory-agent-lite` | Stores SDK-local state and audit receipts |
-| `doctor-agent` | Runs full system health and compliance diagnosis |
+*   **Structured Intelligence**: Procedural heuristic matching (not random AI output).
+*   **Full Traceability**: Every file has an identity; every change has a signature.
+*   **Sovereign Automation**: Lee generates custom scripts tailored to your specific environment.
+*   **Safety Gate (Non-Rogue)**: Lee is legally bound by the Critic's Gate. He will never execute high-risk system commands or touch sensitive sectors without tiered permissions.
+*   **Built-in Governance**: Every file is hash-checked and validated by the Critic's Gate.
+*   **Local-First Architecture**: 100% privacy and zero latency.
 
 ---
 
-## Using the SDK Programmatically
+## 🛡️ Sovereign Safety & Limitations
 
-```javascript
-import { AssessAgent, AuditAgent, DoctorAgent } from 'leeway-sdk';
+Lee is a **Governed Guardian**, not an unrestricted agent. He operates with built-in safety boundaries:
 
-// Assess the codebase
-const assess = new AssessAgent({ rootDir: process.cwd() });
-const inventory = await assess.run();
-console.log(inventory.summary);
-
-// Run a compliance audit
-const audit = new AuditAgent({ rootDir: process.cwd() });
-const report = await audit.runAndSave();
-console.log(`Average compliance: ${report.summary.averageScore}/100`);
-
-// Full system diagnosis
-const doctor = new DoctorAgent({ rootDir: process.cwd() });
-const diagnosis = await doctor.run();
-console.log(doctor.formatReport(diagnosis));
-```
+1.  **Non-Rogue execution**: Lee will explicitly explain his limitations and deny requests that could compromise your host system.
+2.  **Sensitive Sector Protection**: High-risk system commands are blocked by the **Critic's Gate**.
+3.  **Local-First Awakening**: When 'Awakened,' Lee only interacts with **Local Transformers and LLMs**. No data ever leaves the motherboard earth; we remain 100% cloud-free.
 
 ---
 
-## Security Rules
+## ⚡ Environmental Adaptation
 
-The following rules must always be followed:
+Lee recognizes the terrain he inhabits. Whether you are on Windows PowerShell or a Unix-based Bash shell, the scripts Lee generates are native to your machine.
 
-- **Never** include private API keys, database credentials, or secret tokens in code
-- All user input must be sanitized
-- AI prompts must be protected against malicious injection
-- Dependencies must be verified before installation
-- Use `leeway scan` to detect any accidental secrets before committing
+> "I don't just speak code; I speak the language of your OS." — Lee
 
 ---
 
-## Compliance Levels
-
-| Level | Score | Description |
-|-------|-------|-------------|
-| 🥇 Platinum | 95–100 | Fully LEEWAY-compliant |
-| 🥈 Gold | 80–94 | Mostly compliant, minor gaps |
-| 🥉 Silver | 60–79 | Partially compliant |
-| 🔶 Bronze | 40–59 | Minimal compliance |
-| ❌ None | 0–39 | Not LEEWAY-compliant |
-
----
-
-## Quick Start Rules (For Humans or AI)
-
-1. Always include a LEEWAY header.
-2. Assign a correct TAG.
-3. Place the file in the correct directory.
-4. Follow naming conventions.
-5. Avoid duplicate logic.
-6. Ensure security rules are followed.
-7. Document purpose using the 5WH model.
-
-If these rules are followed, the system will remain **stable, understandable, and scalable**.
-
----
-
-## Repository Structure
-
-```
-LeeWay-Standards/
-├── src/
-│   ├── index.js                    # SDK main entry
-│   ├── core/                       # Core parsing and validation
-│   │   ├── header-parser.js
-│   │   ├── tag-validator.js
-│   │   ├── region-classifier.js
-│   │   └── compliance-scorer.js
-│   ├── agents/
-│   │   ├── governance/             # Group A: AAA Governance
-│   │   ├── standards/              # Group B: Standards agents
-│   │   ├── mcp/                    # Group C: MCP & Safety agents
-│   │   ├── integrity/              # Group D: Code integrity agents
-│   │   ├── security/               # Group E: Security agents
-│   │   ├── discovery/              # Group F: Discovery agents
-│   │   └── orchestration/          # Group G: Orchestration agents
-│   └── cli/
-│       └── leeway.js               # CLI entry point
-├── docs/                           # Standards documentation
-├── schemas/                        # JSON schemas
-│   ├── leeway-header.schema.json
-│   └── leeway-config.schema.json
-├── examples/                       # Example LEEWAY-compliant files
-│   ├── NexusButton.tsx
-│   └── example-agent.js
-└── .leeway/
-    └── config.json                 # Project governance config
-```
-
----
-
-## License
+## 📜 License
 
 MIT © Rapid Web Development
+A LeeWay Innovations Product
+
+---
+
+<p align="center">
+  <img src="public/LeeWayStandardslogo.png" width="120" />
+</p>

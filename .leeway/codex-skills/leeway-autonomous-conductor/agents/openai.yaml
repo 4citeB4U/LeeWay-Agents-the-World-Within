@@ -1,0 +1,7 @@
+interface:
+  display_name: "Autonomous Project Conductor"
+  short_description: "Autonomous Project Conductor guidance"
+  default_prompt: "Use $leeway-autonomous-conductor to help with decomposing complex goals into specialized sub-projects."
+
+policy:
+  allow_implicit_invocation: true

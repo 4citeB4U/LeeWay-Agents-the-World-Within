@@ -1,0 +1,7 @@
+interface:
+  display_name: "Web Security Sweep"
+  short_description: "Web Security Sweep guidance"
+  default_prompt: "Use $leeway-web-security-sweep to help with auditing authentication and authorization mechanisms."
+
+policy:
+  allow_implicit_invocation: true

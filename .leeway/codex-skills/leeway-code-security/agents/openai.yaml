@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Security Analysis"
+  short_description: "Code Security Analysis guidance"
+  default_prompt: "Use $leeway-code-security to help with code security reviews."
+
+policy:
+  allow_implicit_invocation: true

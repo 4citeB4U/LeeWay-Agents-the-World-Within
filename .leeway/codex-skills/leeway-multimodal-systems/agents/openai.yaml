@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multimodal Systems"
+  short_description: "Multimodal Systems guidance"
+  default_prompt: "Use $leeway-multimodal-systems to help with building systems understanding images."
+
+policy:
+  allow_implicit_invocation: true

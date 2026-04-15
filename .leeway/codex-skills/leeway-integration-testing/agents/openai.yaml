@@ -1,0 +1,7 @@
+interface:
+  display_name: "Integration Testing"
+  short_description: "Integration Testing guidance"
+  default_prompt: "Use $leeway-integration-testing to help with testing apis and http endpoints."
+
+policy:
+  allow_implicit_invocation: true

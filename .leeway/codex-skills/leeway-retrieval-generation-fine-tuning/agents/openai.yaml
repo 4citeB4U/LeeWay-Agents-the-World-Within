@@ -1,0 +1,7 @@
+interface:
+  display_name: "Model Fine-Tuning and Adaptation"
+  short_description: "Model Fine-Tuning and Adaptation guidance"
+  default_prompt: "Use $leeway-retrieval-generation-fine-tuning to help with models need domain-specific knowledge."
+
+policy:
+  allow_implicit_invocation: true

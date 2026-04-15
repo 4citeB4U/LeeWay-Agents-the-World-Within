@@ -1,0 +1,7 @@
+interface:
+  display_name: "Leeway MCP Server"
+  short_description: "Leeway MCP server and integration guide"
+  default_prompt: "Use $leeway-mcp-server to run, integrate, or troubleshoot the Leeway MCP server."
+
+policy:
+  allow_implicit_invocation: true

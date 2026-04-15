@@ -1,0 +1,7 @@
+interface:
+  display_name: "Deployment Validator"
+  short_description: "Deployment Validator guidance"
+  default_prompt: "Use $leeway-deployment-validator to help with auditing deployment configurations and environment variables."
+
+policy:
+  allow_implicit_invocation: true

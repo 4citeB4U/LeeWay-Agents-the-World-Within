@@ -1,0 +1,7 @@
+interface:
+  display_name: "Advanced Prompt Optimization"
+  short_description: "Advanced Prompt Optimization guidance"
+  default_prompt: "Use $leeway-prompt-engineering-advanced to help with prompts are producing low-quality outputs."
+
+policy:
+  allow_implicit_invocation: true

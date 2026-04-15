@@ -1,0 +1,700 @@
+{
+  "generatedAt": "2026-03-16T03:20:21.216Z",
+  "repoRoot": "C:\\Tools\\LeeWay-AgentSkills",
+  "exportRoot": "C:\\Tools\\LeeWay-AgentSkills\\.leeway\\codex-skills",
+  "skills": [
+    {
+      "name": "leeway-autonomous-conductor",
+      "title": "Autonomous Project Conductor",
+      "source": "skills/agent-autonomy/autonomous-conductor/SKILL.md",
+      "tags": [
+        "orchestration",
+        "autonomy",
+        "coordination",
+        "multi-agent",
+        "project-leadership",
+        "dependency-management",
+        "goal-ownership",
+        "scaling"
+      ]
+    },
+    {
+      "name": "leeway-full-stack-delivery",
+      "title": "Full-Stack Application Delivery (AI Employee)",
+      "source": "skills/agent-autonomy/full-stack-delivery/SKILL.md",
+      "tags": [
+        "autonomy",
+        "planning",
+        "execution",
+        "full-stack",
+        "engineering",
+        "testing",
+        "documentation",
+        "persistence",
+        "quality-gates",
+        "goal-ownership"
+      ]
+    },
+    {
+      "name": "leeway-multi-agent-orchestration",
+      "title": "Multi-Agent Orchestration",
+      "source": "skills/agent-orchestration/multi-agent-orchestration/SKILL.md",
+      "tags": [
+        "agents",
+        "orchestration",
+        "multi-agent",
+        "coordination",
+        "message-passing",
+        "distributed"
+      ]
+    },
+    {
+      "name": "leeway-agent-design-patterns",
+      "title": "Agent Patterns and Architectures",
+      "source": "skills/agent-patterns/agent-design-patterns/SKILL.md",
+      "tags": [
+        "agents",
+        "patterns",
+        "reasoning",
+        "tool-use",
+        "planning",
+        "autonomous"
+      ]
+    },
+    {
+      "name": "leeway-llm-prompting",
+      "title": "LLM Prompting and Engineering",
+      "source": "skills/ai-ml/llm-prompting/SKILL.md",
+      "tags": [
+        "llm",
+        "prompting",
+        "ai",
+        "engineering",
+        "gpt"
+      ]
+    },
+    {
+      "name": "leeway-ml-model-development",
+      "title": "Machine Learning Model Development",
+      "source": "skills/ai-ml/ml-model-development/SKILL.md",
+      "tags": [
+        "machine-learning",
+        "scikit-learn",
+        "tensorflow",
+        "pytorch",
+        "data-science"
+      ]
+    },
+    {
+      "name": "leeway-multimodal-systems",
+      "title": "Multimodal Systems",
+      "source": "skills/ai-ml/multimodal-systems/SKILL.md",
+      "tags": [
+        "multimodal",
+        "vision",
+        "audio",
+        "video",
+        "image-generation",
+        "cross-modal"
+      ]
+    },
+    {
+      "name": "leeway-retrieval-generation-fine-tuning",
+      "title": "Model Fine-Tuning and Adaptation",
+      "source": "skills/ai-ml/retrieval-generation-fine-tuning/SKILL.md",
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "adaptation",
+        "lora",
+        "domain-specific",
+        "training"
+      ]
+    },
+    {
+      "name": "leeway-system-design",
+      "title": "System Design and Architecture",
+      "source": "skills/architecture/system-design/SKILL.md",
+      "tags": [
+        "architecture",
+        "system-design",
+        "distributed-systems",
+        "scalability"
+      ]
+    },
+    {
+      "name": "leeway-refactoring",
+      "title": "Refactoring Code",
+      "source": "skills/code-analysis/refactoring/SKILL.md",
+      "tags": [
+        "refactoring",
+        "code-improvement",
+        "maintainability",
+        "architecture"
+      ]
+    },
+    {
+      "name": "leeway-security-vulnerability-scanning",
+      "title": "Security Vulnerability Scanning",
+      "source": "skills/code-analysis/security-vulnerability-scanning/SKILL.md",
+      "tags": [
+        "security",
+        "vulnerability",
+        "scanning",
+        "sast",
+        "dast",
+        "compliance"
+      ]
+    },
+    {
+      "name": "leeway-static-analysis",
+      "title": "Static Code Analysis",
+      "source": "skills/code-analysis/static-analysis/SKILL.md",
+      "tags": [
+        "code-analysis",
+        "quality",
+        "security",
+        "performance",
+        "refactoring"
+      ]
+    },
+    {
+      "name": "leeway-full-stack-application",
+      "title": "Full-Stack Application Delivery",
+      "source": "skills/code-generation/full-stack-application/SKILL.md",
+      "tags": [
+        "full-stack",
+        "application",
+        "scaffolding",
+        "architecture",
+        "integration",
+        "complete"
+      ]
+    },
+    {
+      "name": "leeway-microservices-architecture",
+      "title": "Microservices Architecture and Design",
+      "source": "skills/code-generation/microservices-architecture/SKILL.md",
+      "tags": [
+        "microservices",
+        "architecture",
+        "distributed",
+        "ddd",
+        "scalability",
+        "resilience"
+      ]
+    },
+    {
+      "name": "leeway-python-codegen",
+      "title": "Python Code Generation",
+      "source": "skills/code-generation/python-codegen/SKILL.md",
+      "tags": [
+        "python",
+        "code-generation",
+        "dataclasses",
+        "async",
+        "fastapi"
+      ]
+    },
+    {
+      "name": "leeway-typescript-codegen",
+      "title": "TypeScript Code Generation",
+      "source": "skills/code-generation/typescript-codegen/SKILL.md",
+      "tags": [
+        "typescript",
+        "javascript",
+        "code-generation",
+        "types",
+        "modules"
+      ]
+    },
+    {
+      "name": "leeway-advanced-analytics",
+      "title": "Advanced Data Analytics",
+      "source": "skills/data-analysis/advanced-analytics/SKILL.md",
+      "tags": [
+        "analytics",
+        "data-science",
+        "statistics",
+        "forecasting",
+        "testing",
+        "insights"
+      ]
+    },
+    {
+      "name": "leeway-pandas-analysis",
+      "title": "Pandas Data Analysis",
+      "source": "skills/data-analysis/pandas-analysis/SKILL.md",
+      "tags": [
+        "python",
+        "data-analysis",
+        "pandas",
+        "statistics",
+        "visualization"
+      ]
+    },
+    {
+      "name": "leeway-database-design-optimization",
+      "title": "Database Design and Optimization",
+      "source": "skills/database-design/database-design-optimization/SKILL.md",
+      "tags": [
+        "database",
+        "sql",
+        "optimization",
+        "schema-design",
+        "performance",
+        "scaling"
+      ]
+    },
+    {
+      "name": "leeway-javascript-debugging",
+      "title": "JavaScript/Node.js Debugging",
+      "source": "skills/debugging/javascript-debugging/SKILL.md",
+      "tags": [
+        "javascript",
+        "debugging",
+        "devtools",
+        "nodejs",
+        "performance"
+      ]
+    },
+    {
+      "name": "leeway-python-debugging",
+      "title": "Python Debugging",
+      "source": "skills/debugging/python-debugging/SKILL.md",
+      "tags": [
+        "python",
+        "debugging",
+        "pdb",
+        "performance",
+        "profiling"
+      ]
+    },
+    {
+      "name": "leeway-dockerfile-creation",
+      "title": "Dockerfile Creation",
+      "source": "skills/devops/dockerfile-creation/SKILL.md",
+      "tags": [
+        "docker",
+        "devops",
+        "containerization",
+        "ci-cd",
+        "security"
+      ]
+    },
+    {
+      "name": "leeway-kubernetes-deployment",
+      "title": "Kubernetes Deployment",
+      "source": "skills/devops/kubernetes-deployment/SKILL.md",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "container-orchestration",
+        "deployment",
+        "scaling"
+      ]
+    },
+    {
+      "name": "leeway-api-documentation",
+      "title": "API Documentation",
+      "source": "skills/documentation/api-documentation/SKILL.md",
+      "tags": [
+        "documentation",
+        "api",
+        "openapi",
+        "swagger",
+        "specs"
+      ]
+    },
+    {
+      "name": "leeway-resilience-patterns",
+      "title": "Error Handling and Resilience",
+      "source": "skills/error-handling/resilience-patterns/SKILL.md",
+      "tags": [
+        "resilience",
+        "error-handling",
+        "fault-tolerance",
+        "reliability",
+        "recovery",
+        "distributed"
+      ]
+    },
+    {
+      "name": "leeway-git-collaboration",
+      "title": "Git Workflow and Collaboration",
+      "source": "skills/git-workflow/git-collaboration/SKILL.md",
+      "tags": [
+        "git",
+        "workflow",
+        "collaboration",
+        "version-control",
+        "devops"
+      ]
+    },
+    {
+      "name": "leeway-cicd-pipelines",
+      "title": "CI/CD Pipeline Engineering",
+      "source": "skills/infrastructure/cicd-pipelines/SKILL.md",
+      "tags": [
+        "ci-cd",
+        "automation",
+        "devops",
+        "github-actions",
+        "deployment",
+        "pipelines"
+      ]
+    },
+    {
+      "name": "leeway-infrastructure-as-code",
+      "title": "Infrastructure-as-Code",
+      "source": "skills/infrastructure/infrastructure-as-code/SKILL.md",
+      "tags": [
+        "infrastructure",
+        "iac",
+        "terraform",
+        "cloudformation",
+        "aws",
+        "automation"
+      ]
+    },
+    {
+      "name": "leeway-monitoring-and-observability",
+      "title": "Observability and Monitoring",
+      "source": "skills/observability/monitoring-and-observability/SKILL.md",
+      "tags": [
+        "observability",
+        "monitoring",
+        "logging",
+        "tracing",
+        "metrics",
+        "debugging"
+      ]
+    },
+    {
+      "name": "leeway-performance-engineering",
+      "title": "Performance Optimization Engineering",
+      "source": "skills/performance-optimization/performance-engineering/SKILL.md",
+      "tags": [
+        "performance",
+        "optimization",
+        "profiling",
+        "scalability",
+        "efficiency",
+        "monitoring"
+      ]
+    },
+    {
+      "name": "leeway-prompt-engineering-advanced",
+      "title": "Advanced Prompt Optimization",
+      "source": "skills/prompt-optimization/prompt-engineering-advanced/SKILL.md",
+      "tags": [
+        "prompting",
+        "optimization",
+        "llm",
+        "testing",
+        "iteration",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "leeway-deployment-validator",
+      "title": "Deployment Validator",
+      "source": "skills/quality-assurance/deployment-validator/SKILL.md",
+      "tags": [
+        "deployment",
+        "validation",
+        "release-engineering",
+        "configuration-management",
+        "quality-assurance",
+        "testing",
+        "performance-baseline",
+        "go-no-go"
+      ]
+    },
+    {
+      "name": "leeway-web-security-sweep",
+      "title": "Web Security Sweep",
+      "source": "skills/quality-assurance/web-security-sweep/SKILL.md",
+      "tags": [
+        "security",
+        "vulnerability-assessment",
+        "audit",
+        "owasp",
+        "compliance",
+        "risk-mitigation",
+        "sast",
+        "dast",
+        "threat-modeling"
+      ]
+    },
+    {
+      "name": "leeway-rag-systems",
+      "title": "RAG (Retrieval-Augmented Generation)",
+      "source": "skills/rag-knowledge/rag-systems/SKILL.md",
+      "tags": [
+        "rag",
+        "retrieval",
+        "knowledge-management",
+        "embedding",
+        "semantic-search",
+        "grounding"
+      ]
+    },
+    {
+      "name": "leeway-knowledge-synthesis",
+      "title": "Knowledge Synthesis and Research",
+      "source": "skills/research/knowledge-synthesis/SKILL.md",
+      "tags": [
+        "research",
+        "synthesis",
+        "knowledge",
+        "fact-checking",
+        "multi-source",
+        "analysis"
+      ]
+    },
+    {
+      "name": "leeway-authentication-authorization",
+      "title": "Authentication and Authorization",
+      "source": "skills/security/authentication-authorization/SKILL.md",
+      "tags": [
+        "security",
+        "authentication",
+        "authorization",
+        "oauth2",
+        "oidc",
+        "access-control"
+      ]
+    },
+    {
+      "name": "leeway-code-security",
+      "title": "Code Security Analysis",
+      "source": "skills/security/code-security/SKILL.md",
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "owasp",
+        "cryptography",
+        "api-security"
+      ]
+    },
+    {
+      "name": "leeway-secure-architecture",
+      "title": "Secure Architecture Design",
+      "source": "skills/security/secure-architecture/SKILL.md",
+      "tags": [
+        "security",
+        "architecture",
+        "design",
+        "compliance",
+        "zero-trust",
+        "defense-in-depth"
+      ]
+    },
+    {
+      "name": "leeway-dev-loop-optimizer",
+      "title": "Dev Loop Optimizer",
+      "source": "skills/self-optimization/dev-loop-optimizer/SKILL.md",
+      "tags": [
+        "developer-experience",
+        "performance",
+        "optimization",
+        "testing",
+        "feedback-loops",
+        "iteration",
+        "ci-cd",
+        "automation"
+      ]
+    },
+    {
+      "name": "leeway-memory-learning",
+      "title": "Memory and Continuous Learning",
+      "source": "skills/self-optimization/memory-learning/SKILL.md",
+      "tags": [
+        "memory",
+        "learning",
+        "knowledge-management",
+        "patterns",
+        "institutional-knowledge",
+        "decision-making",
+        "reusability",
+        "cross-project-patterns"
+      ]
+    },
+    {
+      "name": "leeway-runtime-self-profiling",
+      "title": "Runtime Self-Profiling and Optimization",
+      "source": "skills/self-optimization/runtime-self-profiling/SKILL.md",
+      "tags": [
+        "self-optimization",
+        "performance",
+        "efficiency",
+        "metrics",
+        "learning",
+        "continuous-improvement",
+        "token-optimization",
+        "pattern-detection"
+      ]
+    },
+    {
+      "name": "leeway-advanced-testing-strategies",
+      "title": "Advanced Testing Strategies",
+      "source": "skills/testing/advanced-testing-strategies/SKILL.md",
+      "tags": [
+        "testing",
+        "quality",
+        "tdd",
+        "bdd",
+        "comprehensive",
+        "strategy"
+      ]
+    },
+    {
+      "name": "leeway-integration-testing",
+      "title": "Integration Testing",
+      "source": "skills/testing/integration-testing/SKILL.md",
+      "tags": [
+        "testing",
+        "integration",
+        "api",
+        "database",
+        "e2e"
+      ]
+    },
+    {
+      "name": "leeway-load-testing-capacity",
+      "title": "Load Testing and Capacity Planning",
+      "source": "skills/testing/load-testing-capacity/SKILL.md",
+      "tags": [
+        "testing",
+        "performance",
+        "load-testing",
+        "capacity",
+        "scalability",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "leeway-unit-testing",
+      "title": "Unit Testing",
+      "source": "skills/testing/unit-testing/SKILL.md",
+      "tags": [
+        "testing",
+        "jest",
+        "pytest",
+        "unittest",
+        "mocking"
+      ]
+    },
+    {
+      "name": "leeway-custom-tool-creation",
+      "title": "Custom Tool Integration",
+      "source": "skills/tool-integration/custom-tool-creation/SKILL.md",
+      "tags": [
+        "tools",
+        "integration",
+        "api",
+        "function-calling",
+        "tool-use",
+        "composability"
+      ]
+    },
+    {
+      "name": "leeway-advanced-frontend-patterns",
+      "title": "Advanced Frontend Patterns",
+      "source": "skills/web-development/advanced-frontend-patterns/SKILL.md",
+      "tags": [
+        "frontend",
+        "React",
+        "patterns",
+        "state-management",
+        "real-time",
+        "performance"
+      ]
+    },
+    {
+      "name": "leeway-api-design",
+      "title": "API Design and REST/GraphQL",
+      "source": "skills/web-development/api-design/SKILL.md",
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "grpc",
+        "design",
+        "documentation"
+      ]
+    },
+    {
+      "name": "leeway-css-styling",
+      "title": "CSS Styling and Layout",
+      "source": "skills/web-development/css-styling/SKILL.md",
+      "tags": [
+        "css",
+        "styling",
+        "responsive",
+        "accessibility",
+        "frontend"
+      ]
+    },
+    {
+      "name": "leeway-react-development",
+      "title": "React Development",
+      "source": "skills/web-development/react-development/SKILL.md",
+      "tags": [
+        "react",
+        "javascript",
+        "hooks",
+        "state-management",
+        "frontend",
+        "performance",
+        "component-design"
+      ]
+    },
+    {
+      "name": "leeway-workflow-orchestration",
+      "title": "Complex Workflow Composition",
+      "source": "skills/workflow-composition/workflow-orchestration/SKILL.md",
+      "tags": [
+        "workflows",
+        "orchestration",
+        "automation",
+        "pipelines",
+        "distributed-systems",
+        "etl"
+      ]
+    },
+    {
+      "name": "leeway-agent-skills-platform",
+      "title": "Leeway Agent Skills Platform",
+      "source": "repo-docs"
+    },
+    {
+      "name": "leeway-mcp-server",
+      "title": "Leeway MCP Server",
+      "source": "repo-docs"
+    },
+    {
+      "name": "leeway-workflows",
+      "title": "Leeway Workflows",
+      "source": "repo-docs"
+    },
+    {
+      "name": "leeway-npm-sdk",
+      "title": "Leeway NPM SDK",
+      "source": "repo-docs"
+    },
+    {
+      "name": "leeway-standards",
+      "title": "Leeway Standards",
+      "source": "repo-docs",
+      "tags": [
+        "leeway",
+        "governance",
+        "headers",
+        "compliance",
+        "standards"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "LLM Prompting and Engineering"
+  short_description: "LLM Prompting and Engineering guidance"
+  default_prompt: "Use $leeway-llm-prompting to help with improving llm output quality."
+
+policy:
+  allow_implicit_invocation: true

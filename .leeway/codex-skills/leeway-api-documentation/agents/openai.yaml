@@ -1,0 +1,7 @@
+interface:
+  display_name: "API Documentation"
+  short_description: "API Documentation guidance"
+  default_prompt: "Use $leeway-api-documentation to help with documenting apis."
+
+policy:
+  allow_implicit_invocation: true

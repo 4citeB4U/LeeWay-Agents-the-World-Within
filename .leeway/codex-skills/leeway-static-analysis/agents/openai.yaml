@@ -1,0 +1,7 @@
+interface:
+  display_name: "Static Code Analysis"
+  short_description: "Static Code Analysis guidance"
+  default_prompt: "Use $leeway-static-analysis to help with you need to review code for quality issues."
+
+policy:
+  allow_implicit_invocation: true
