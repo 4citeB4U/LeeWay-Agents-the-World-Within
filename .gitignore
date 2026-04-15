@@ -1,0 +1,32 @@
+# LLM Models
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Node / build
+node_modules/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Large runtime folders
+bin/
+models/
