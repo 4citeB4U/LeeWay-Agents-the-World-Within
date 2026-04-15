@@ -1,25 +1,4 @@
-# Node
-node_modules/
-
-# Python
-.venv/
-__pycache__/
-*.pyc
-
-# Logs
-logs/
-*.log
-
-# Binaries
-bin/
-*.exe
-*.dll
-
-# Media (too large for GitHub)
-*.mp4
-*.zip
-
-# Models (if present)
+# AI Models
 *.gguf
 *.bin
 *.onnx
@@ -27,6 +6,26 @@ bin/
 *.pth
 *.safetensors
 
-# Build
-dist/
-build/
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Binaries
+bin/
+*.exe
+*.dll
+
+# Logs
+logs/
+*.log
+
+# Media (optional)
+*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
