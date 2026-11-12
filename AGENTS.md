@@ -1,3 +1,17 @@
+<!--
+LEEWAY HEADER — DO NOT REMOVE
+REGION: LEEWAY.REPOSITORY.GOVERNANCE
+TAG: LEEWAY.REPOSITORY.WORKER.ADMISSION.V1
+DISCOVERY_PIPELINE: Voice → Intent → Location → Vertical → Ranking → Render
+5WH:
+WHAT = Bind repository worker and agent operations to approved LeeWay Standards.
+WHY = Establish first-read law, scope, authorization and evidence traceability.
+WHO = Creator/Human Authority and qualified existing repository source owner.
+WHERE = AGENTS.md in 4citeB4U/LeeWay-Agents-the-World-Within.
+WHEN = 2026-11-12 source admission update.
+HOW = Read canonical Standards and original mission before bounded execution.
+LICENSE: Existing repository terms remain unchanged.
+-->
 # LeeWay Agent Skills
 
 Use LeeWay standards by default for any code, script, config, or skill changes in this repo.
@@ -24,3 +38,7 @@ This supplements but does not remove or weaken any prior local AGENTS requiremen
 Define and preserve at each required operation boundary: controlling laws/regulations/jurisdiction and policies; mission/work/scope/owner/authority; evidence FOR/AGAINST, original references, correlation and notes; baseline/actual measurements, decisions/rationale, corrections/rollback/retest; teach/learn/development and independent bounded practice/teach-back; actual Formula, Veritas, Receipt, Continuum, Learning and Production qualification state when applicable. Missing required evidence or permission blocks the dependent action; N/A has documented reason, not invented data.
 
 Execute the full twelve-stage engineering cycle with original Machine Consciousness role policy, multi-skill Skill Orchestrator task weave and bounded authorized focal execution; safe parallel tools and no conflicts. Outside models BUILD → TEACH → ASSESS; permanent workers independently learn. Merit/grades require authorized original Workforce issuers and never grant permission. Original Runtime workplane owns custody; a handoff does not transfer execution grants. Device Brain and Diagnostics remain device-owned. Report SOURCE_IMPLEMENTED/TESTED/CI_PASS/DEPLOYED/LIVE_OBSERVED/VERITAS_VERIFIED/QUALIFIED distinctly. Source text alone does not prove this client loaded or executed the rules.
+
+## Final boundary — effective canonical law and operation handoff
+
+**Approved authority:** [LeeWay Standards main merge 2e5e98bdc49cfe0bf180de394db054eaf2f8e3d3](https://github.com/4citeB4U/LeeWay-Standards/commit/2e5e98bdc49cfe0bf180de394db054eaf2f8e3d3). References above to Standards PR #71 as pending are historical and superseded by the merged law. On exit, the worker must record original mission/work/correlation, applicable law revision, real identity/grants, commands/measurements/evidence FOR and AGAINST, decisions/corrections, practice/learning eligibility, independent verification status, and the accepting next owner or bounded blocker. Successful source review is **not** Runtime or production admission.
